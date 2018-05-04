@@ -1,0 +1,2112 @@
+Skill 1 攻撃: Damage Formula: a.atk * 4 - b.def * 2
+Skill 3 連続攻撃: Damage Formula: a.atk * 4 - b.def * 2
+Skill 4 ２回攻撃: Damage Formula: a.atk * 4 - b.def * 2
+Skill 5 ３回攻撃: Damage Formula: a.atk * 4 - b.def * 2
+Skill 8 炎の息: Damage Formula: a.atk
+Skill 9 吹雪の息: Damage Formula: a.atk
+Skill 10 電撃: Damage Formula: a.atk
+Skill 21 体当たり: Damage Formula: a.atk * 4 - b.def * 2
+Skill 23 吸血: Damage Formula: a.atk * 2 - b.def
+Skill 24 瞑想: Damage Formula: b.mhp / 4
+Skill 26 ヒール: Damage Formula: 250 + a.mat
+Skill 27 ヒールⅡ: Damage Formula: 1000 + a.mat * 2
+Skill 28 ヒールⅢ: Damage Formula: 4000 + a.mat * 4
+Skill 29 リカバー: Damage Formula: 250 + a.mat
+Skill 30 リカバーⅡ: Damage Formula: 1000 + a.mat * 2
+Skill 33 レイズ: Damage Formula: b.mhp / 10
+Skill 34 レイズⅡ: Damage Formula: b.mhp / 2
+Skill 49 ライフドレイン: Damage Formula: 200 + a.mat * 4 - b.mdf * 2
+Skill 50 マナドレイン: Damage Formula: 20 + a.mat - b.mdf * 0.5
+Skill 51 ファイア: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 52 ファイアⅡ: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 53 フレイム: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 54 フレイムⅡ: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 55 アイス: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 56 アイスⅡ: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 57 ブリザード: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 58 ブリザードⅡ: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 59 サンダー: Damage Formula: 200 + a.mat * 2 - b.mdf * 2
+Skill 60 サンダーⅡ: Damage Formula: 500 + a.mat * 2 - b.mdf * 2
+Skill 61 スパーク: Damage Formula: 200 + a.mat * 2 - b.mdf * 2
+Skill 62 スパークⅡ: Damage Formula: 500 + a.mat * 2 - b.mdf * 2
+Skill 63 ウォーター: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 64 ウェーブ: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 65 ストーン: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 66 クェイク: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 67 ウィンド: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 68 トルネード: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 69 セイント: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 70 スターライト: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 71 シェイド: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 72 ダークネス: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 73 バースト: Damage Formula: 300 + a.mat * 2
+Skill 74 ニュークリア: Damage Formula: 300 + a.mat * 2
+Skill 80 強撃: Damage Formula: a.atk * 5 - b.def * 2
+Skill 81 薙ぎ払い: Damage Formula: a.atk * 2 - b.def * 2
+Skill 83 バーサーカーダンス: Damage Formula: a.atk * 5 - b.def * 2
+Skill 84 ギガスランページ: Damage Formula: a.atk * 12 - b.def * 6
+Skill 85 タックル: Damage Formula: a.atk * 4 + a.def * 2 - b.def * 2
+Skill 88 無影脚: Damage Formula: a.atk * 5
+Skill 89 破龍爪円舞: Damage Formula: a.atk * 12
+Skill 94 ゼクスシュツルム: Damage Formula: a.atk * 5 - b.def * 2
+Skill 95 オーラブレード: Damage Formula: a.atk * 4 + a.mat * 3 - b.def - b.mdf
+Skill 99 レディアントブレード: Damage Formula: a.atk * 5 + a.mat * 5 - b.def - b.mdf
+Skill 100 鎧通し: Damage Formula: a.atk * 4
+Skill 103 ツバメ返し: Damage Formula: a.atk * 3 - b.def * 2
+Skill 104 桜花夢幻刃: Damage Formula: a.atk * 4 - b.def * 2
+Skill 105 ウェポンブレイク: Damage Formula: a.atk * 4 - b.def * 2
+Skill 106 アーマーブレイク: Damage Formula: a.atk * 4 - b.def * 2
+Skill 108 トリプルショット: Damage Formula: a.atk * 4 + a.agi * 2 - b.def * 2
+Skill 109 サウザンドアロー: Damage Formula: a.atk * 3 + a.agi * 2 - b.def * 2
+Skill 113 アサシンエッジ: Damage Formula: a.atk * 3 + a.luk * 4 - b.def * 2
+Skill 114 ヴァリアントエッジ: Damage Formula: a.atk * 2 + a.luk * 4 - b.def * 2
+Skill 117 神罰: Damage Formula: a.mat * 5 - b.mdf
+Skill 122 魔力の奔流: Damage Formula: b.mmp * 0.5
+Common Event 1 汎用ドアの開く処理(1頁) Line 1:  - Conditional Branch script call: start_player?
+Common Event 1 汎用ドアの開く処理(1頁) Line 6:  - Script call: # get_invoker でこのイベントを起動したイベントのID
+Common Event 1 汎用ドアの開く処理(1頁) Line 7:  - Script call: # を取得して overwrite_char で次の命令の対象に設定
+Common Event 1 汎用ドアの開く処理(1頁) Line 8:  - Script call: overwrite_char(get_invoker)
+Common Event 2 汎用ドアの並列処理(2頁) Line 1:  - Script call: char = get_character(0) # このイベント
+Common Event 2 汎用ドアの並列処理(2頁) Line 2:  - Script call: # プレイヤーとの距離を取得
+Common Event 2 汎用ドアの並列処理(2頁) Line 3:  - Script call: dx = $game_player.distance_x_from(char.x)
+Common Event 2 汎用ドアの並列処理(2頁) Line 4:  - Script call: dy = $game_player.distance_y_from(char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 5:  - Script call: value = Math.sqrt(dx ** 2 + dy ** 2) # 直線距離
+Common Event 2 汎用ドアの並列処理(2頁) Line 6:  - Script call: $game_variables[22] = value.round # 整数
+Common Event 2 汎用ドアの並列処理(2頁) Line 30:  - Script call: char = get_character(0) # このイベント
+Common Event 2 汎用ドアの並列処理(2頁) Line 31:  - Script call: # 扉の座標にいるすり抜け以外のイベントの数を変数5に
+Common Event 2 汎用ドアの並列処理(2頁) Line 32:  - Script call: events = $game_map.events_xy_nt(char.x, char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 33:  - Script call: $game_variables[21] = events.size
+Common Event 2 汎用ドアの並列処理(2頁) Line 34:  - Script call: # 扉の座標にプレイヤーがいる場合は 1 加算(隊列含む)
+Common Event 2 汎用ドアの並列処理(2頁) Line 35:  - Script call: if $game_player.collide?(char.x, char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 36:  - Script call:   $game_variables[21] += 1
+Common Event 2 汎用ドアの並列処理(2頁) Line 37:  - Script call: end
+Common Event 2 汎用ドアの並列処理(2頁) Line 42:  - Script call: char = get_character(0) # このイベント
+Common Event 2 汎用ドアの並列処理(2頁) Line 43:  - Script call: # 扉の座標にいるすり抜け以外のイベントの数を変数5に
+Common Event 2 汎用ドアの並列処理(2頁) Line 44:  - Script call: events = $game_map.events_xy_nt(char.x, char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 45:  - Script call: $game_variables[21] = events.size
+Common Event 2 汎用ドアの並列処理(2頁) Line 46:  - Script call: # 扉の座標にプレイヤーがいる場合は 1 加算(隊列含む)
+Common Event 2 汎用ドアの並列処理(2頁) Line 47:  - Script call: if $game_player.collide?(char.x, char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 48:  - Script call:   $game_variables[21] += 1
+Common Event 2 汎用ドアの並列処理(2頁) Line 49:  - Script call: end
+Common Event 2 汎用ドアの並列処理(2頁) Line 54:  - Script call: char = get_character(0) # このイベント
+Common Event 2 汎用ドアの並列処理(2頁) Line 55:  - Script call: # 扉の座標にいるすり抜け以外のイベントの数を変数5に
+Common Event 2 汎用ドアの並列処理(2頁) Line 56:  - Script call: events = $game_map.events_xy_nt(char.x, char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 57:  - Script call: $game_variables[21] = events.size
+Common Event 2 汎用ドアの並列処理(2頁) Line 58:  - Script call: # 扉の座標にプレイヤーがいる場合は 1 加算(隊列含む)
+Common Event 2 汎用ドアの並列処理(2頁) Line 59:  - Script call: if $game_player.collide?(char.x, char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 60:  - Script call:   $game_variables[21] += 1
+Common Event 2 汎用ドアの並列処理(2頁) Line 61:  - Script call: end
+Common Event 2 汎用ドアの並列処理(2頁) Line 68:  - Script call: char = get_character(0) # このイベント
+Common Event 2 汎用ドアの並列処理(2頁) Line 69:  - Script call: # 扉の座標にいるすり抜け以外のイベントの数を変数5に
+Common Event 2 汎用ドアの並列処理(2頁) Line 70:  - Script call: events = $game_map.events_xy_nt(char.x, char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 71:  - Script call: $game_variables[21] = events.size
+Common Event 2 汎用ドアの並列処理(2頁) Line 72:  - Script call: # 扉の座標にプレイヤーがいる場合は 1 加算(隊列含む)
+Common Event 2 汎用ドアの並列処理(2頁) Line 73:  - Script call: if $game_player.collide?(char.x, char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 74:  - Script call:   $game_variables[21] += 1
+Common Event 2 汎用ドアの並列処理(2頁) Line 75:  - Script call: end
+Common Event 2 汎用ドアの並列処理(2頁) Line 78:  - Script call: char = get_character(0) # このイベント
+Common Event 2 汎用ドアの並列処理(2頁) Line 79:  - Script call: # プレイヤーとの距離を取得
+Common Event 2 汎用ドアの並列処理(2頁) Line 80:  - Script call: dx = $game_player.distance_x_from(char.x)
+Common Event 2 汎用ドアの並列処理(2頁) Line 81:  - Script call: dy = $game_player.distance_y_from(char.y)
+Common Event 2 汎用ドアの並列処理(2頁) Line 82:  - Script call: value = Math.sqrt(dx ** 2 + dy ** 2) # 直線距離
+Common Event 2 汎用ドアの並列処理(2頁) Line 83:  - Script call: $game_variables[22] = value.round # 整数に変換
+Common Event 3 ダンジョン後処理 Line 55:  - Script call: end_noise
+Common Event 3 ダンジョン後処理 Line 112:  - Script call: map_effects.clear
+Common Event 14 アイテム召喚 Line 44:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 45:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 46:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 47:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 48:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 49:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 50:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 104:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 105:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 106:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 107:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 108:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 109:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 110:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 162:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 163:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 164:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 165:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 166:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 167:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 168:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 225:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 226:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 230:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 283:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 284:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 285:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 286:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 287:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 288:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 289:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 346:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 347:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 348:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 349:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 350:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 351:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 352:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 404:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 405:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 406:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 407:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 408:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 409:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 410:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 467:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 468:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 469:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 470:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 471:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 472:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 473:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 525:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 526:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 527:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 528:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 529:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 530:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 531:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 588:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 589:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 590:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 591:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 592:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 593:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 594:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 651:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 652:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 653:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 654:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 655:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 656:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 657:  - Script call: overwrite_char($game_variables[14])
+Common Event 14 アイテム召喚 Line 709:  - Script call: x = $game_variables[68]
+Common Event 14 アイテム召喚 Line 710:  - Script call: y = $game_variables[69]
+Common Event 14 アイテム召喚 Line 711:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 14 アイテム召喚 Line 712:  - Script call: copy_map = 9                  # マップID
+Common Event 14 アイテム召喚 Line 713:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 14 アイテム召喚 Line 714:  - Script call: $game_variables[14] = id
+Common Event 14 アイテム召喚 Line 715:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 44:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 45:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 46:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 47:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 48:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 49:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 50:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 105:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 106:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 110:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 163:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 164:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 165:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 166:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 167:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 168:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 169:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 226:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 227:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 228:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 229:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 230:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 231:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 232:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 283:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 284:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 285:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 286:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 287:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 288:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 289:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 348:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 349:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 350:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 351:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 352:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 353:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 354:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 405:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 406:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 407:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 408:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 409:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 410:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 411:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 470:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 471:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 472:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 473:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 474:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 475:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 476:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 527:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 528:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 529:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 530:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 531:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 532:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 533:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 594:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 595:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 596:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 597:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 598:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 599:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 600:  - Script call: overwrite_char($game_variables[14])
+Common Event 15 敵召喚 Line 651:  - Script call: x = $game_variables[16]
+Common Event 15 敵召喚 Line 652:  - Script call: y = $game_variables[17]
+Common Event 15 敵召喚 Line 653:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 15 敵召喚 Line 654:  - Script call: copy_map = 9                  # マップID
+Common Event 15 敵召喚 Line 655:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 15 敵召喚 Line 656:  - Script call: $game_variables[14] = id
+Common Event 15 敵召喚 Line 657:  - Script call: overwrite_char($game_variables[14])
+Common Event 17 松明くん Line 25:  - Script call: x = $game_variables[18]
+Common Event 17 松明くん Line 26:  - Script call: y = $game_variables[19]
+Common Event 17 松明くん Line 27:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 17 松明くん Line 28:  - Script call: copy_map = 9                  # マップID
+Common Event 17 松明くん Line 29:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 17 松明くん Line 30:  - Script call: $game_variables[14] = id
+Common Event 17 松明くん Line 41:  - Script call: x = $game_variables[18]
+Common Event 17 松明くん Line 42:  - Script call: y = $game_variables[19]
+Common Event 17 松明くん Line 43:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 17 松明くん Line 44:  - Script call: copy_map = 9                  # マップID
+Common Event 17 松明くん Line 45:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 17 松明くん Line 46:  - Script call: $game_variables[14] = id
+Common Event 17 松明くん Line 47:  - Script call: overwrite_char($game_variables[14])
+Common Event 19 電気攻撃くん Line 26:  - Script call: x = $game_variables[18]
+Common Event 19 電気攻撃くん Line 27:  - Script call: y = $game_variables[19]
+Common Event 19 電気攻撃くん Line 28:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 19 電気攻撃くん Line 29:  - Script call: copy_map = 9                  # マップID
+Common Event 19 電気攻撃くん Line 30:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 19 電気攻撃くん Line 31:  - Script call: $game_variables[99] = id
+Common Event 19 電気攻撃くん Line 42:  - Script call: overwrite_char($game_variables[99])
+Common Event 20 ランダムくん Line 6:  - Script call: x = $game_variables[18]
+Common Event 20 ランダムくん Line 7:  - Script call: y = $game_variables[19]
+Common Event 20 ランダムくん Line 8:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 20 ランダムくん Line 9:  - Script call: copy_map = 9                  # マップID
+Common Event 20 ランダムくん Line 10:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 20 ランダムくん Line 11:  - Script call: $game_variables[14] = id
+Common Event 20 ランダムくん Line 12:  - Script call: overwrite_char($game_variables[14])
+Common Event 21 階段召喚 Line 44:  - Script call: x = $game_variables[71]
+Common Event 21 階段召喚 Line 45:  - Script call: y = $game_variables[72]
+Common Event 21 階段召喚 Line 46:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 21 階段召喚 Line 47:  - Script call: copy_map = 9                  # マップID
+Common Event 21 階段召喚 Line 48:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 21 階段召喚 Line 49:  - Script call: $game_variables[14] = id
+Common Event 21 階段召喚 Line 50:  - Script call: overwrite_char($game_variables[14])
+Common Event 24 箱おきくん Line 30:  - Script call: x = $game_variables[18]
+Common Event 24 箱おきくん Line 31:  - Script call: y = $game_variables[19]
+Common Event 24 箱おきくん Line 32:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 24 箱おきくん Line 33:  - Script call: copy_map = 9                  # マップID
+Common Event 24 箱おきくん Line 34:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 24 箱おきくん Line 35:  - Script call: $game_variables[14] = id
+Common Event 24 箱おきくん Line 36:  - Script call: overwrite_char($game_variables[14])
+Common Event 24 箱おきくん Line 91:  - Script call: x = $game_variables[18]
+Common Event 24 箱おきくん Line 92:  - Script call: y = $game_variables[19]
+Common Event 24 箱おきくん Line 93:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 24 箱おきくん Line 94:  - Script call: copy_map = 9                  # マップID
+Common Event 24 箱おきくん Line 95:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 24 箱おきくん Line 96:  - Script call: $game_variables[14] = id
+Common Event 24 箱おきくん Line 97:  - Script call: overwrite_char($game_variables[14])
+Common Event 24 箱おきくん Line 154:  - Script call: x = $game_variables[18]
+Common Event 24 箱おきくん Line 155:  - Script call: y = $game_variables[19]
+Common Event 24 箱おきくん Line 156:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 24 箱おきくん Line 157:  - Script call: copy_map = 9                  # マップID
+Common Event 24 箱おきくん Line 158:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 24 箱おきくん Line 159:  - Script call: $game_variables[14] = id
+Common Event 24 箱おきくん Line 160:  - Script call: overwrite_char($game_variables[14])
+Common Event 24 箱おきくん Line 164:  - Script call: x = $game_variables[18]
+Common Event 24 箱おきくん Line 165:  - Script call: y = $game_variables[19]
+Common Event 24 箱おきくん Line 166:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 24 箱おきくん Line 167:  - Script call: copy_map = 9                  # マップID
+Common Event 24 箱おきくん Line 168:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 24 箱おきくん Line 169:  - Script call: $game_variables[14] = id
+Common Event 24 箱おきくん Line 170:  - Script call: overwrite_char($game_variables[14])
+Common Event 24 箱おきくん Line 176:  - Script call: x = $game_variables[18]
+Common Event 24 箱おきくん Line 177:  - Script call: y = $game_variables[19]
+Common Event 24 箱おきくん Line 178:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 24 箱おきくん Line 179:  - Script call: copy_map = 9                  # マップID
+Common Event 24 箱おきくん Line 180:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 24 箱おきくん Line 181:  - Script call: $game_variables[14] = id
+Common Event 24 箱おきくん Line 182:  - Script call: overwrite_char($game_variables[14])
+Common Event 25 ダッシュくん Line 5:  - Script call: map_effects.set_zoom_blur(200, 60)
+Common Event 25 ダッシュくん Line 6:  - Script call: map_effects.setup_blur(4, 100, 0)
+Common Event 25 ダッシュくん Line 11:  - Script call: map_effects.set_zoom_blur(0, 0)
+Common Event 25 ダッシュくん Line 12:  - Script call: map_effects.setup_blur(0, 0, 0)
+Common Event 25 ダッシュくん Line 30:  - Script call: map_effects.set_zoom_blur(200, 60)
+Common Event 25 ダッシュくん Line 31:  - Script call: map_effects.setup_blur(4, 100, 0)
+Common Event 25 ダッシュくん Line 35:  - Script call: map_effects.set_zoom_blur(0, 0)
+Common Event 25 ダッシュくん Line 36:  - Script call: map_effects.setup_blur(0, 0, 0)
+Common Event 25 ダッシュくん Line 53:  - Script call: map_effects.set_zoom_blur(200, 60)
+Common Event 25 ダッシュくん Line 54:  - Script call: map_effects.setup_blur(4, 100, 0)
+Common Event 25 ダッシュくん Line 60:  - Script call: map_effects.set_zoom_blur(0, 0)
+Common Event 25 ダッシュくん Line 61:  - Script call: map_effects.setup_blur(0, 0, 0)
+Common Event 26 空き缶くん Line 41:  - Script call: x = $game_variables[18]
+Common Event 26 空き缶くん Line 42:  - Script call: y = $game_variables[19]
+Common Event 26 空き缶くん Line 43:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 26 空き缶くん Line 44:  - Script call: copy_map = 9                  # マップID
+Common Event 26 空き缶くん Line 45:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 26 空き缶くん Line 46:  - Script call: $game_variables[14] = id
+Common Event 26 空き缶くん Line 104:  - Script call: x = $game_variables[18]
+Common Event 26 空き缶くん Line 105:  - Script call: y = $game_variables[19]
+Common Event 26 空き缶くん Line 106:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 26 空き缶くん Line 107:  - Script call: copy_map = 9                  # マップID
+Common Event 26 空き缶くん Line 108:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 26 空き缶くん Line 109:  - Script call: $game_variables[14] = id
+Common Event 26 空き缶くん Line 167:  - Script call: x = $game_variables[18]
+Common Event 26 空き缶くん Line 168:  - Script call: y = $game_variables[19]
+Common Event 26 空き缶くん Line 169:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 26 空き缶くん Line 170:  - Script call: copy_map = 9                  # マップID
+Common Event 26 空き缶くん Line 171:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 26 空き缶くん Line 172:  - Script call: $game_variables[14] = id
+Common Event 27 足止めくん Line 35:  - Script call: x = $game_variables[18]
+Common Event 27 足止めくん Line 36:  - Script call: y = $game_variables[19]
+Common Event 27 足止めくん Line 37:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 27 足止めくん Line 38:  - Script call: copy_map = 9                  # マップID
+Common Event 27 足止めくん Line 39:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 27 足止めくん Line 40:  - Script call: $game_variables[14] = id
+Common Event 27 足止めくん Line 41:  - Script call: overwrite_char($game_variables[14])
+Common Event 27 足止めくん Line 96:  - Script call: x = $game_variables[18]
+Common Event 27 足止めくん Line 97:  - Script call: y = $game_variables[19]
+Common Event 27 足止めくん Line 98:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 27 足止めくん Line 99:  - Script call: copy_map = 9                  # マップID
+Common Event 27 足止めくん Line 100:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 27 足止めくん Line 101:  - Script call: $game_variables[14] = id
+Common Event 27 足止めくん Line 102:  - Script call: overwrite_char($game_variables[14])
+Common Event 27 足止めくん Line 157:  - Script call: x = $game_variables[18]
+Common Event 27 足止めくん Line 158:  - Script call: y = $game_variables[19]
+Common Event 27 足止めくん Line 159:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 27 足止めくん Line 160:  - Script call: copy_map = 9                  # マップID
+Common Event 27 足止めくん Line 161:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 27 足止めくん Line 162:  - Script call: $game_variables[14] = id
+Common Event 27 足止めくん Line 163:  - Script call: overwrite_char($game_variables[14])
+Common Event 28 ケーキくん Line 30:  - Script call: map_effects.set_motion_blur(1)
+Common Event 28 ケーキくん Line 36:  - Script call: map_effects.set_motion_blur(0)
+Common Event 28 ケーキくん Line 78:  - Script call: map_effects.set_motion_blur(1)
+Common Event 28 ケーキくん Line 84:  - Script call: map_effects.set_motion_blur(0)
+Common Event 29 幽体離脱くん Line 21:  - Script call: map_effects.set_motion_blur(1)
+Common Event 29 幽体離脱くん Line 23:  - Script call: x = $game_variables[18]
+Common Event 29 幽体離脱くん Line 24:  - Script call: y = $game_variables[19]
+Common Event 29 幽体離脱くん Line 25:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 29 幽体離脱くん Line 26:  - Script call: copy_map = 9                  # マップID
+Common Event 29 幽体離脱くん Line 27:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 29 幽体離脱くん Line 28:  - Script call: $game_variables[14] = id
+Common Event 29 幽体離脱くん Line 42:  - Script call: map_effects.set_motion_blur(0)
+Common Event 29 幽体離脱くん Line 69:  - Script call: map_effects.set_motion_blur(1)
+Common Event 29 幽体離脱くん Line 71:  - Script call: x = $game_variables[18]
+Common Event 29 幽体離脱くん Line 72:  - Script call: y = $game_variables[19]
+Common Event 29 幽体離脱くん Line 73:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 29 幽体離脱くん Line 74:  - Script call: copy_map = 9                  # マップID
+Common Event 29 幽体離脱くん Line 75:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 29 幽体離脱くん Line 76:  - Script call: $game_variables[14] = id
+Common Event 29 幽体離脱くん Line 90:  - Script call: map_effects.set_motion_blur(0)
+Common Event 29 幽体離脱くん Line 117:  - Script call: map_effects.set_motion_blur(1)
+Common Event 29 幽体離脱くん Line 119:  - Script call: x = $game_variables[18]
+Common Event 29 幽体離脱くん Line 120:  - Script call: y = $game_variables[19]
+Common Event 29 幽体離脱くん Line 121:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 29 幽体離脱くん Line 122:  - Script call: copy_map = 9                  # マップID
+Common Event 29 幽体離脱くん Line 123:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 29 幽体離脱くん Line 124:  - Script call: $game_variables[14] = id
+Common Event 29 幽体離脱くん Line 138:  - Script call: map_effects.set_motion_blur(0)
+Common Event 30 ワープくん Line 52:  - Script call: x = $game_variables[18]
+Common Event 30 ワープくん Line 53:  - Script call: y = $game_variables[19]
+Common Event 30 ワープくん Line 54:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 30 ワープくん Line 55:  - Script call: copy_map = 9                  # マップID
+Common Event 30 ワープくん Line 56:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 30 ワープくん Line 57:  - Script call: $game_variables[14] = id
+Common Event 30 ワープくん Line 120:  - Script call: x = $game_variables[18]
+Common Event 30 ワープくん Line 121:  - Script call: y = $game_variables[19]
+Common Event 30 ワープくん Line 122:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 30 ワープくん Line 123:  - Script call: copy_map = 9                  # マップID
+Common Event 30 ワープくん Line 124:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 30 ワープくん Line 125:  - Script call: $game_variables[14] = id
+Common Event 30 ワープくん Line 187:  - Script call: x = $game_variables[18]
+Common Event 30 ワープくん Line 188:  - Script call: y = $game_variables[19]
+Common Event 30 ワープくん Line 189:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 30 ワープくん Line 190:  - Script call: copy_map = 9                  # マップID
+Common Event 30 ワープくん Line 191:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 30 ワープくん Line 192:  - Script call: $game_variables[14] = id
+Common Event 31 ランダモくん Line 31:  - Script call: x = $game_variables[18]
+Common Event 31 ランダモくん Line 32:  - Script call: y = $game_variables[19]
+Common Event 31 ランダモくん Line 33:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 31 ランダモくん Line 34:  - Script call: copy_map = 9                  # マップID
+Common Event 31 ランダモくん Line 35:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 31 ランダモくん Line 36:  - Script call: $game_variables[14] = id
+Common Event 31 ランダモくん Line 37:  - Script call: overwrite_char($game_variables[14])
+Common Event 31 ランダモくん Line 79:  - Script call: x = $game_variables[18]
+Common Event 31 ランダモくん Line 80:  - Script call: y = $game_variables[19]
+Common Event 31 ランダモくん Line 81:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 31 ランダモくん Line 82:  - Script call: copy_map = 9                  # マップID
+Common Event 31 ランダモくん Line 83:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 31 ランダモくん Line 84:  - Script call: $game_variables[14] = id
+Common Event 31 ランダモくん Line 85:  - Script call: overwrite_char($game_variables[14])
+Common Event 31 ランダモくん Line 89:  - Script call: x = $game_variables[18]
+Common Event 31 ランダモくん Line 90:  - Script call: y = $game_variables[19]
+Common Event 31 ランダモくん Line 91:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 31 ランダモくん Line 92:  - Script call: copy_map = 9                  # マップID
+Common Event 31 ランダモくん Line 93:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 31 ランダモくん Line 94:  - Script call: $game_variables[14] = id
+Common Event 31 ランダモくん Line 95:  - Script call: overwrite_char($game_variables[14])
+Common Event 31 ランダモくん Line 137:  - Script call: x = $game_variables[18]
+Common Event 31 ランダモくん Line 138:  - Script call: y = $game_variables[19]
+Common Event 31 ランダモくん Line 139:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 31 ランダモくん Line 140:  - Script call: copy_map = 9                  # マップID
+Common Event 31 ランダモくん Line 141:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 31 ランダモくん Line 142:  - Script call: $game_variables[14] = id
+Common Event 31 ランダモくん Line 143:  - Script call: overwrite_char($game_variables[14])
+Common Event 31 ランダモくん Line 147:  - Script call: x = $game_variables[18]
+Common Event 31 ランダモくん Line 148:  - Script call: y = $game_variables[19]
+Common Event 31 ランダモくん Line 149:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 31 ランダモくん Line 150:  - Script call: copy_map = 9                  # マップID
+Common Event 31 ランダモくん Line 151:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 31 ランダモくん Line 152:  - Script call: $game_variables[14] = id
+Common Event 31 ランダモくん Line 153:  - Script call: overwrite_char($game_variables[14])
+Common Event 31 ランダモくん Line 157:  - Script call: x = $game_variables[18]
+Common Event 31 ランダモくん Line 158:  - Script call: y = $game_variables[19]
+Common Event 31 ランダモくん Line 159:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 31 ランダモくん Line 160:  - Script call: copy_map = 9                  # マップID
+Common Event 31 ランダモくん Line 161:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 31 ランダモくん Line 162:  - Script call: $game_variables[14] = id
+Common Event 31 ランダモくん Line 163:  - Script call: overwrite_char($game_variables[14])
+Common Event 32 無敵くん Line 29:  - Script call: map_effects.set_linear_blur(0, 40, 60)
+Common Event 32 無敵くん Line 32:  - Script call: map_effects.set_linear_blur(0, 0, 0)
+Common Event 32 無敵くん Line 85:  - Script call: map_effects.set_linear_blur(0, 40, 60)
+Common Event 32 無敵くん Line 88:  - Script call: map_effects.set_linear_blur(0, 0, 0)
+Common Event 32 無敵くん Line 141:  - Script call: map_effects.set_linear_blur(0, 40, 60)
+Common Event 32 無敵くん Line 144:  - Script call: map_effects.set_linear_blur(0, 0, 0)
+Common Event 50 メインアイテム召喚 Line 47:  - Script call: x = $game_variables[75]
+Common Event 50 メインアイテム召喚 Line 48:  - Script call: y = $game_variables[76]
+Common Event 50 メインアイテム召喚 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 50 メインアイテム召喚 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 50 メインアイテム召喚 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 50 メインアイテム召喚 Line 52:  - Script call: $game_variables[14] = id
+Common Event 50 メインアイテム召喚 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 52 ダンジョン開始処理 Line 86:  - Script call: end_noise
+Common Event 52 ダンジョン開始処理 Line 133:  - Script call: map_effects.clear
+Common Event 52 ダンジョン開始処理 Line 271:  - Script call: end_noise
+Common Event 52 ダンジョン開始処理 Line 272:  - Script call: map_effects.clear
+Common Event 54 デカ赤ん坊 Line 1:  - Script call: start_noise
+Common Event 57 赤い世界 Line 1:  - Script call: shake_type(1)
+Common Event 58 ドア召喚 Line 60:  - Script call: x = $game_variables[102]
+Common Event 58 ドア召喚 Line 61:  - Script call: y = $game_variables[103]
+Common Event 58 ドア召喚 Line 62:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 58 ドア召喚 Line 63:  - Script call: copy_map = 9                  # マップID
+Common Event 58 ドア召喚 Line 64:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 58 ドア召喚 Line 65:  - Script call: $game_variables[14] = id
+Common Event 58 ドア召喚 Line 66:  - Script call: overwrite_char($game_variables[14])
+Common Event 58 ドア召喚 Line 119:  - Script call: x = $game_variables[102]
+Common Event 58 ドア召喚 Line 120:  - Script call: y = $game_variables[103]
+Common Event 58 ドア召喚 Line 121:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 58 ドア召喚 Line 122:  - Script call: copy_map = 9                  # マップID
+Common Event 58 ドア召喚 Line 123:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 58 ドア召喚 Line 124:  - Script call: $game_variables[14] = id
+Common Event 58 ドア召喚 Line 125:  - Script call: overwrite_char($game_variables[14])
+Common Event 66 ドア召喚2 Line 57:  - Script call: x = $game_variables[102]
+Common Event 66 ドア召喚2 Line 58:  - Script call: y = $game_variables[103]
+Common Event 66 ドア召喚2 Line 59:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 66 ドア召喚2 Line 60:  - Script call: copy_map = 9                  # マップID
+Common Event 66 ドア召喚2 Line 61:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 66 ドア召喚2 Line 62:  - Script call: $game_variables[14] = id
+Common Event 66 ドア召喚2 Line 63:  - Script call: overwrite_char($game_variables[14])
+Common Event 66 ドア召喚2 Line 116:  - Script call: x = $game_variables[102]
+Common Event 66 ドア召喚2 Line 117:  - Script call: y = $game_variables[103]
+Common Event 66 ドア召喚2 Line 118:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 66 ドア召喚2 Line 119:  - Script call: copy_map = 9                  # マップID
+Common Event 66 ドア召喚2 Line 120:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 66 ドア召喚2 Line 121:  - Script call: $game_variables[14] = id
+Common Event 66 ドア召喚2 Line 122:  - Script call: overwrite_char($game_variables[14])
+Common Event 85 ドア召喚3 Line 57:  - Script call: x = $game_variables[102]
+Common Event 85 ドア召喚3 Line 58:  - Script call: y = $game_variables[103]
+Common Event 85 ドア召喚3 Line 59:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 85 ドア召喚3 Line 60:  - Script call: copy_map = 9                  # マップID
+Common Event 85 ドア召喚3 Line 61:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 85 ドア召喚3 Line 62:  - Script call: $game_variables[14] = id
+Common Event 85 ドア召喚3 Line 63:  - Script call: overwrite_char($game_variables[14])
+Common Event 85 ドア召喚3 Line 116:  - Script call: x = $game_variables[102]
+Common Event 85 ドア召喚3 Line 117:  - Script call: y = $game_variables[103]
+Common Event 85 ドア召喚3 Line 118:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 85 ドア召喚3 Line 119:  - Script call: copy_map = 9                  # マップID
+Common Event 85 ドア召喚3 Line 120:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 85 ドア召喚3 Line 121:  - Script call: $game_variables[14] = id
+Common Event 85 ドア召喚3 Line 122:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 48:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 49:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 50:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 51:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 52:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 53:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 54:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 106:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 107:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 108:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 109:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 110:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 111:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 112:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 169:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 170:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 171:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 172:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 173:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 174:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 175:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 227:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 228:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 229:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 230:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 231:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 232:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 233:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 290:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 291:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 295:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 348:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 349:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 350:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 351:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 352:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 353:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 354:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 411:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 412:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 413:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 414:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 415:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 416:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 417:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 469:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 470:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 474:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 532:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 533:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 534:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 535:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 536:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 537:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 538:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 590:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 591:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 592:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 593:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 594:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 595:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 596:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 655:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 656:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 657:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 658:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 659:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 660:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 661:  - Script call: overwrite_char($game_variables[14])
+Common Event 87 金召喚 Line 713:  - Script call: x = $game_variables[106]
+Common Event 87 金召喚 Line 714:  - Script call: y = $game_variables[107]
+Common Event 87 金召喚 Line 715:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 87 金召喚 Line 716:  - Script call: copy_map = 9                  # マップID
+Common Event 87 金召喚 Line 717:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 87 金召喚 Line 718:  - Script call: $game_variables[14] = id
+Common Event 87 金召喚 Line 719:  - Script call: overwrite_char($game_variables[14])
+Common Event 90 ダンジョン開始処理大学 Line 112:  - Script call: end_noise
+Common Event 90 ダンジョン開始処理大学 Line 113:  - Script call: map_effects.clear
+Common Event 90 ダンジョン開始処理大学 Line 114:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Common Event 90 ダンジョン開始処理大学 Line 252:  - Script call: end_noise
+Common Event 90 ダンジョン開始処理大学 Line 253:  - Script call: map_effects.clear
+Common Event 90 ダンジョン開始処理大学 Line 254:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Common Event 101 敵召喚室内DG Line 47:  - Script call: x = $game_variables[16]
+Common Event 101 敵召喚室内DG Line 48:  - Script call: y = $game_variables[17]
+Common Event 101 敵召喚室内DG Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 101 敵召喚室内DG Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 101 敵召喚室内DG Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 101 敵召喚室内DG Line 52:  - Script call: $game_variables[14] = id
+Common Event 101 敵召喚室内DG Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 101 敵召喚室内DG Line 105:  - Script call: x = $game_variables[16]
+Common Event 101 敵召喚室内DG Line 106:  - Script call: y = $game_variables[17]
+Common Event 101 敵召喚室内DG Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 101 敵召喚室内DG Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 101 敵召喚室内DG Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 101 敵召喚室内DG Line 110:  - Script call: $game_variables[14] = id
+Common Event 101 敵召喚室内DG Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 101 敵召喚室内DG Line 168:  - Script call: x = $game_variables[16]
+Common Event 101 敵召喚室内DG Line 169:  - Script call: y = $game_variables[17]
+Common Event 101 敵召喚室内DG Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 101 敵召喚室内DG Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 101 敵召喚室内DG Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 101 敵召喚室内DG Line 173:  - Script call: $game_variables[14] = id
+Common Event 101 敵召喚室内DG Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 101 敵召喚室内DG Line 225:  - Script call: x = $game_variables[16]
+Common Event 101 敵召喚室内DG Line 226:  - Script call: y = $game_variables[17]
+Common Event 101 敵召喚室内DG Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 101 敵召喚室内DG Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 101 敵召喚室内DG Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 101 敵召喚室内DG Line 230:  - Script call: $game_variables[14] = id
+Common Event 101 敵召喚室内DG Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 101 敵召喚室内DG Line 290:  - Script call: x = $game_variables[16]
+Common Event 101 敵召喚室内DG Line 291:  - Script call: y = $game_variables[17]
+Common Event 101 敵召喚室内DG Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 101 敵召喚室内DG Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 101 敵召喚室内DG Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 101 敵召喚室内DG Line 295:  - Script call: $game_variables[14] = id
+Common Event 101 敵召喚室内DG Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 101 敵召喚室内DG Line 347:  - Script call: x = $game_variables[16]
+Common Event 101 敵召喚室内DG Line 348:  - Script call: y = $game_variables[17]
+Common Event 101 敵召喚室内DG Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 101 敵召喚室内DG Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 101 敵召喚室内DG Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 101 敵召喚室内DG Line 352:  - Script call: $game_variables[14] = id
+Common Event 101 敵召喚室内DG Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 101 敵召喚室内DG Line 412:  - Script call: x = $game_variables[16]
+Common Event 101 敵召喚室内DG Line 413:  - Script call: y = $game_variables[17]
+Common Event 101 敵召喚室内DG Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 101 敵召喚室内DG Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 101 敵召喚室内DG Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 101 敵召喚室内DG Line 417:  - Script call: $game_variables[14] = id
+Common Event 101 敵召喚室内DG Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 101 敵召喚室内DG Line 469:  - Script call: x = $game_variables[16]
+Common Event 101 敵召喚室内DG Line 470:  - Script call: y = $game_variables[17]
+Common Event 101 敵召喚室内DG Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 101 敵召喚室内DG Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 101 敵召喚室内DG Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 101 敵召喚室内DG Line 474:  - Script call: $game_variables[14] = id
+Common Event 101 敵召喚室内DG Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 102 敵召喚室内DG2 Line 47:  - Script call: x = $game_variables[16]
+Common Event 102 敵召喚室内DG2 Line 48:  - Script call: y = $game_variables[17]
+Common Event 102 敵召喚室内DG2 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 102 敵召喚室内DG2 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 102 敵召喚室内DG2 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 102 敵召喚室内DG2 Line 52:  - Script call: $game_variables[14] = id
+Common Event 102 敵召喚室内DG2 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 102 敵召喚室内DG2 Line 105:  - Script call: x = $game_variables[16]
+Common Event 102 敵召喚室内DG2 Line 106:  - Script call: y = $game_variables[17]
+Common Event 102 敵召喚室内DG2 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 102 敵召喚室内DG2 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 102 敵召喚室内DG2 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 102 敵召喚室内DG2 Line 110:  - Script call: $game_variables[14] = id
+Common Event 102 敵召喚室内DG2 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 102 敵召喚室内DG2 Line 168:  - Script call: x = $game_variables[16]
+Common Event 102 敵召喚室内DG2 Line 169:  - Script call: y = $game_variables[17]
+Common Event 102 敵召喚室内DG2 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 102 敵召喚室内DG2 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 102 敵召喚室内DG2 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 102 敵召喚室内DG2 Line 173:  - Script call: $game_variables[14] = id
+Common Event 102 敵召喚室内DG2 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 102 敵召喚室内DG2 Line 225:  - Script call: x = $game_variables[16]
+Common Event 102 敵召喚室内DG2 Line 226:  - Script call: y = $game_variables[17]
+Common Event 102 敵召喚室内DG2 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 102 敵召喚室内DG2 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 102 敵召喚室内DG2 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 102 敵召喚室内DG2 Line 230:  - Script call: $game_variables[14] = id
+Common Event 102 敵召喚室内DG2 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 102 敵召喚室内DG2 Line 290:  - Script call: x = $game_variables[16]
+Common Event 102 敵召喚室内DG2 Line 291:  - Script call: y = $game_variables[17]
+Common Event 102 敵召喚室内DG2 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 102 敵召喚室内DG2 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 102 敵召喚室内DG2 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 102 敵召喚室内DG2 Line 295:  - Script call: $game_variables[14] = id
+Common Event 102 敵召喚室内DG2 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 102 敵召喚室内DG2 Line 347:  - Script call: x = $game_variables[16]
+Common Event 102 敵召喚室内DG2 Line 348:  - Script call: y = $game_variables[17]
+Common Event 102 敵召喚室内DG2 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 102 敵召喚室内DG2 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 102 敵召喚室内DG2 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 102 敵召喚室内DG2 Line 352:  - Script call: $game_variables[14] = id
+Common Event 102 敵召喚室内DG2 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 102 敵召喚室内DG2 Line 412:  - Script call: x = $game_variables[16]
+Common Event 102 敵召喚室内DG2 Line 413:  - Script call: y = $game_variables[17]
+Common Event 102 敵召喚室内DG2 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 102 敵召喚室内DG2 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 102 敵召喚室内DG2 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 102 敵召喚室内DG2 Line 417:  - Script call: $game_variables[14] = id
+Common Event 102 敵召喚室内DG2 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 102 敵召喚室内DG2 Line 469:  - Script call: x = $game_variables[16]
+Common Event 102 敵召喚室内DG2 Line 470:  - Script call: y = $game_variables[17]
+Common Event 102 敵召喚室内DG2 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 102 敵召喚室内DG2 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 102 敵召喚室内DG2 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 102 敵召喚室内DG2 Line 474:  - Script call: $game_variables[14] = id
+Common Event 102 敵召喚室内DG2 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 103 敵召喚室内DG3 Line 47:  - Script call: x = $game_variables[16]
+Common Event 103 敵召喚室内DG3 Line 48:  - Script call: y = $game_variables[17]
+Common Event 103 敵召喚室内DG3 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 103 敵召喚室内DG3 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 103 敵召喚室内DG3 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 103 敵召喚室内DG3 Line 52:  - Script call: $game_variables[14] = id
+Common Event 103 敵召喚室内DG3 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 103 敵召喚室内DG3 Line 105:  - Script call: x = $game_variables[16]
+Common Event 103 敵召喚室内DG3 Line 106:  - Script call: y = $game_variables[17]
+Common Event 103 敵召喚室内DG3 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 103 敵召喚室内DG3 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 103 敵召喚室内DG3 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 103 敵召喚室内DG3 Line 110:  - Script call: $game_variables[14] = id
+Common Event 103 敵召喚室内DG3 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 103 敵召喚室内DG3 Line 168:  - Script call: x = $game_variables[16]
+Common Event 103 敵召喚室内DG3 Line 169:  - Script call: y = $game_variables[17]
+Common Event 103 敵召喚室内DG3 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 103 敵召喚室内DG3 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 103 敵召喚室内DG3 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 103 敵召喚室内DG3 Line 173:  - Script call: $game_variables[14] = id
+Common Event 103 敵召喚室内DG3 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 103 敵召喚室内DG3 Line 225:  - Script call: x = $game_variables[16]
+Common Event 103 敵召喚室内DG3 Line 226:  - Script call: y = $game_variables[17]
+Common Event 103 敵召喚室内DG3 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 103 敵召喚室内DG3 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 103 敵召喚室内DG3 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 103 敵召喚室内DG3 Line 230:  - Script call: $game_variables[14] = id
+Common Event 103 敵召喚室内DG3 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 103 敵召喚室内DG3 Line 290:  - Script call: x = $game_variables[16]
+Common Event 103 敵召喚室内DG3 Line 291:  - Script call: y = $game_variables[17]
+Common Event 103 敵召喚室内DG3 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 103 敵召喚室内DG3 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 103 敵召喚室内DG3 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 103 敵召喚室内DG3 Line 295:  - Script call: $game_variables[14] = id
+Common Event 103 敵召喚室内DG3 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 103 敵召喚室内DG3 Line 347:  - Script call: x = $game_variables[16]
+Common Event 103 敵召喚室内DG3 Line 348:  - Script call: y = $game_variables[17]
+Common Event 103 敵召喚室内DG3 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 103 敵召喚室内DG3 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 103 敵召喚室内DG3 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 103 敵召喚室内DG3 Line 352:  - Script call: $game_variables[14] = id
+Common Event 103 敵召喚室内DG3 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 103 敵召喚室内DG3 Line 412:  - Script call: x = $game_variables[16]
+Common Event 103 敵召喚室内DG3 Line 413:  - Script call: y = $game_variables[17]
+Common Event 103 敵召喚室内DG3 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 103 敵召喚室内DG3 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 103 敵召喚室内DG3 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 103 敵召喚室内DG3 Line 417:  - Script call: $game_variables[14] = id
+Common Event 103 敵召喚室内DG3 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 103 敵召喚室内DG3 Line 469:  - Script call: x = $game_variables[16]
+Common Event 103 敵召喚室内DG3 Line 470:  - Script call: y = $game_variables[17]
+Common Event 103 敵召喚室内DG3 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 103 敵召喚室内DG3 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 103 敵召喚室内DG3 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 103 敵召喚室内DG3 Line 474:  - Script call: $game_variables[14] = id
+Common Event 103 敵召喚室内DG3 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 104 敵召喚室内DG4 Line 47:  - Script call: x = $game_variables[16]
+Common Event 104 敵召喚室内DG4 Line 48:  - Script call: y = $game_variables[17]
+Common Event 104 敵召喚室内DG4 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 104 敵召喚室内DG4 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 104 敵召喚室内DG4 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 104 敵召喚室内DG4 Line 52:  - Script call: $game_variables[14] = id
+Common Event 104 敵召喚室内DG4 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 104 敵召喚室内DG4 Line 105:  - Script call: x = $game_variables[16]
+Common Event 104 敵召喚室内DG4 Line 106:  - Script call: y = $game_variables[17]
+Common Event 104 敵召喚室内DG4 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 104 敵召喚室内DG4 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 104 敵召喚室内DG4 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 104 敵召喚室内DG4 Line 110:  - Script call: $game_variables[14] = id
+Common Event 104 敵召喚室内DG4 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 104 敵召喚室内DG4 Line 168:  - Script call: x = $game_variables[16]
+Common Event 104 敵召喚室内DG4 Line 169:  - Script call: y = $game_variables[17]
+Common Event 104 敵召喚室内DG4 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 104 敵召喚室内DG4 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 104 敵召喚室内DG4 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 104 敵召喚室内DG4 Line 173:  - Script call: $game_variables[14] = id
+Common Event 104 敵召喚室内DG4 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 104 敵召喚室内DG4 Line 225:  - Script call: x = $game_variables[16]
+Common Event 104 敵召喚室内DG4 Line 226:  - Script call: y = $game_variables[17]
+Common Event 104 敵召喚室内DG4 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 104 敵召喚室内DG4 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 104 敵召喚室内DG4 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 104 敵召喚室内DG4 Line 230:  - Script call: $game_variables[14] = id
+Common Event 104 敵召喚室内DG4 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 104 敵召喚室内DG4 Line 290:  - Script call: x = $game_variables[16]
+Common Event 104 敵召喚室内DG4 Line 291:  - Script call: y = $game_variables[17]
+Common Event 104 敵召喚室内DG4 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 104 敵召喚室内DG4 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 104 敵召喚室内DG4 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 104 敵召喚室内DG4 Line 295:  - Script call: $game_variables[14] = id
+Common Event 104 敵召喚室内DG4 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 104 敵召喚室内DG4 Line 347:  - Script call: x = $game_variables[16]
+Common Event 104 敵召喚室内DG4 Line 348:  - Script call: y = $game_variables[17]
+Common Event 104 敵召喚室内DG4 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 104 敵召喚室内DG4 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 104 敵召喚室内DG4 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 104 敵召喚室内DG4 Line 352:  - Script call: $game_variables[14] = id
+Common Event 104 敵召喚室内DG4 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 104 敵召喚室内DG4 Line 412:  - Script call: x = $game_variables[16]
+Common Event 104 敵召喚室内DG4 Line 413:  - Script call: y = $game_variables[17]
+Common Event 104 敵召喚室内DG4 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 104 敵召喚室内DG4 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 104 敵召喚室内DG4 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 104 敵召喚室内DG4 Line 417:  - Script call: $game_variables[14] = id
+Common Event 104 敵召喚室内DG4 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 104 敵召喚室内DG4 Line 469:  - Script call: x = $game_variables[16]
+Common Event 104 敵召喚室内DG4 Line 470:  - Script call: y = $game_variables[17]
+Common Event 104 敵召喚室内DG4 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 104 敵召喚室内DG4 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 104 敵召喚室内DG4 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 104 敵召喚室内DG4 Line 474:  - Script call: $game_variables[14] = id
+Common Event 104 敵召喚室内DG4 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 105 敵召喚室内DG5 Line 47:  - Script call: x = $game_variables[16]
+Common Event 105 敵召喚室内DG5 Line 48:  - Script call: y = $game_variables[17]
+Common Event 105 敵召喚室内DG5 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 105 敵召喚室内DG5 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 105 敵召喚室内DG5 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 105 敵召喚室内DG5 Line 52:  - Script call: $game_variables[14] = id
+Common Event 105 敵召喚室内DG5 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 105 敵召喚室内DG5 Line 105:  - Script call: x = $game_variables[16]
+Common Event 105 敵召喚室内DG5 Line 106:  - Script call: y = $game_variables[17]
+Common Event 105 敵召喚室内DG5 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 105 敵召喚室内DG5 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 105 敵召喚室内DG5 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 105 敵召喚室内DG5 Line 110:  - Script call: $game_variables[14] = id
+Common Event 105 敵召喚室内DG5 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 105 敵召喚室内DG5 Line 168:  - Script call: x = $game_variables[16]
+Common Event 105 敵召喚室内DG5 Line 169:  - Script call: y = $game_variables[17]
+Common Event 105 敵召喚室内DG5 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 105 敵召喚室内DG5 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 105 敵召喚室内DG5 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 105 敵召喚室内DG5 Line 173:  - Script call: $game_variables[14] = id
+Common Event 105 敵召喚室内DG5 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 105 敵召喚室内DG5 Line 225:  - Script call: x = $game_variables[16]
+Common Event 105 敵召喚室内DG5 Line 226:  - Script call: y = $game_variables[17]
+Common Event 105 敵召喚室内DG5 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 105 敵召喚室内DG5 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 105 敵召喚室内DG5 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 105 敵召喚室内DG5 Line 230:  - Script call: $game_variables[14] = id
+Common Event 105 敵召喚室内DG5 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 105 敵召喚室内DG5 Line 290:  - Script call: x = $game_variables[16]
+Common Event 105 敵召喚室内DG5 Line 291:  - Script call: y = $game_variables[17]
+Common Event 105 敵召喚室内DG5 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 105 敵召喚室内DG5 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 105 敵召喚室内DG5 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 105 敵召喚室内DG5 Line 295:  - Script call: $game_variables[14] = id
+Common Event 105 敵召喚室内DG5 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 105 敵召喚室内DG5 Line 347:  - Script call: x = $game_variables[16]
+Common Event 105 敵召喚室内DG5 Line 348:  - Script call: y = $game_variables[17]
+Common Event 105 敵召喚室内DG5 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 105 敵召喚室内DG5 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 105 敵召喚室内DG5 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 105 敵召喚室内DG5 Line 352:  - Script call: $game_variables[14] = id
+Common Event 105 敵召喚室内DG5 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 105 敵召喚室内DG5 Line 412:  - Script call: x = $game_variables[16]
+Common Event 105 敵召喚室内DG5 Line 413:  - Script call: y = $game_variables[17]
+Common Event 105 敵召喚室内DG5 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 105 敵召喚室内DG5 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 105 敵召喚室内DG5 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 105 敵召喚室内DG5 Line 417:  - Script call: $game_variables[14] = id
+Common Event 105 敵召喚室内DG5 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 105 敵召喚室内DG5 Line 469:  - Script call: x = $game_variables[16]
+Common Event 105 敵召喚室内DG5 Line 470:  - Script call: y = $game_variables[17]
+Common Event 105 敵召喚室内DG5 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 105 敵召喚室内DG5 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 105 敵召喚室内DG5 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 105 敵召喚室内DG5 Line 474:  - Script call: $game_variables[14] = id
+Common Event 105 敵召喚室内DG5 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 106 敵召喚室内DG6 Line 47:  - Script call: x = $game_variables[16]
+Common Event 106 敵召喚室内DG6 Line 48:  - Script call: y = $game_variables[17]
+Common Event 106 敵召喚室内DG6 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 106 敵召喚室内DG6 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 106 敵召喚室内DG6 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 106 敵召喚室内DG6 Line 52:  - Script call: $game_variables[14] = id
+Common Event 106 敵召喚室内DG6 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 106 敵召喚室内DG6 Line 105:  - Script call: x = $game_variables[16]
+Common Event 106 敵召喚室内DG6 Line 106:  - Script call: y = $game_variables[17]
+Common Event 106 敵召喚室内DG6 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 106 敵召喚室内DG6 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 106 敵召喚室内DG6 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 106 敵召喚室内DG6 Line 110:  - Script call: $game_variables[14] = id
+Common Event 106 敵召喚室内DG6 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 106 敵召喚室内DG6 Line 168:  - Script call: x = $game_variables[16]
+Common Event 106 敵召喚室内DG6 Line 169:  - Script call: y = $game_variables[17]
+Common Event 106 敵召喚室内DG6 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 106 敵召喚室内DG6 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 106 敵召喚室内DG6 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 106 敵召喚室内DG6 Line 173:  - Script call: $game_variables[14] = id
+Common Event 106 敵召喚室内DG6 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 106 敵召喚室内DG6 Line 225:  - Script call: x = $game_variables[16]
+Common Event 106 敵召喚室内DG6 Line 226:  - Script call: y = $game_variables[17]
+Common Event 106 敵召喚室内DG6 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 106 敵召喚室内DG6 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 106 敵召喚室内DG6 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 106 敵召喚室内DG6 Line 230:  - Script call: $game_variables[14] = id
+Common Event 106 敵召喚室内DG6 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 106 敵召喚室内DG6 Line 290:  - Script call: x = $game_variables[16]
+Common Event 106 敵召喚室内DG6 Line 291:  - Script call: y = $game_variables[17]
+Common Event 106 敵召喚室内DG6 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 106 敵召喚室内DG6 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 106 敵召喚室内DG6 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 106 敵召喚室内DG6 Line 295:  - Script call: $game_variables[14] = id
+Common Event 106 敵召喚室内DG6 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 106 敵召喚室内DG6 Line 347:  - Script call: x = $game_variables[16]
+Common Event 106 敵召喚室内DG6 Line 348:  - Script call: y = $game_variables[17]
+Common Event 106 敵召喚室内DG6 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 106 敵召喚室内DG6 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 106 敵召喚室内DG6 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 106 敵召喚室内DG6 Line 352:  - Script call: $game_variables[14] = id
+Common Event 106 敵召喚室内DG6 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 106 敵召喚室内DG6 Line 412:  - Script call: x = $game_variables[16]
+Common Event 106 敵召喚室内DG6 Line 413:  - Script call: y = $game_variables[17]
+Common Event 106 敵召喚室内DG6 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 106 敵召喚室内DG6 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 106 敵召喚室内DG6 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 106 敵召喚室内DG6 Line 417:  - Script call: $game_variables[14] = id
+Common Event 106 敵召喚室内DG6 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 106 敵召喚室内DG6 Line 469:  - Script call: x = $game_variables[16]
+Common Event 106 敵召喚室内DG6 Line 470:  - Script call: y = $game_variables[17]
+Common Event 106 敵召喚室内DG6 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 106 敵召喚室内DG6 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 106 敵召喚室内DG6 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 106 敵召喚室内DG6 Line 474:  - Script call: $game_variables[14] = id
+Common Event 106 敵召喚室内DG6 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 110 敵召喚森DG1 Line 47:  - Script call: x = $game_variables[16]
+Common Event 110 敵召喚森DG1 Line 48:  - Script call: y = $game_variables[17]
+Common Event 110 敵召喚森DG1 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 110 敵召喚森DG1 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 110 敵召喚森DG1 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 110 敵召喚森DG1 Line 52:  - Script call: $game_variables[14] = id
+Common Event 110 敵召喚森DG1 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 110 敵召喚森DG1 Line 105:  - Script call: x = $game_variables[16]
+Common Event 110 敵召喚森DG1 Line 106:  - Script call: y = $game_variables[17]
+Common Event 110 敵召喚森DG1 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 110 敵召喚森DG1 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 110 敵召喚森DG1 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 110 敵召喚森DG1 Line 110:  - Script call: $game_variables[14] = id
+Common Event 110 敵召喚森DG1 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 110 敵召喚森DG1 Line 168:  - Script call: x = $game_variables[16]
+Common Event 110 敵召喚森DG1 Line 169:  - Script call: y = $game_variables[17]
+Common Event 110 敵召喚森DG1 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 110 敵召喚森DG1 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 110 敵召喚森DG1 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 110 敵召喚森DG1 Line 173:  - Script call: $game_variables[14] = id
+Common Event 110 敵召喚森DG1 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 110 敵召喚森DG1 Line 225:  - Script call: x = $game_variables[16]
+Common Event 110 敵召喚森DG1 Line 226:  - Script call: y = $game_variables[17]
+Common Event 110 敵召喚森DG1 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 110 敵召喚森DG1 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 110 敵召喚森DG1 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 110 敵召喚森DG1 Line 230:  - Script call: $game_variables[14] = id
+Common Event 110 敵召喚森DG1 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 110 敵召喚森DG1 Line 290:  - Script call: x = $game_variables[16]
+Common Event 110 敵召喚森DG1 Line 291:  - Script call: y = $game_variables[17]
+Common Event 110 敵召喚森DG1 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 110 敵召喚森DG1 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 110 敵召喚森DG1 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 110 敵召喚森DG1 Line 295:  - Script call: $game_variables[14] = id
+Common Event 110 敵召喚森DG1 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 110 敵召喚森DG1 Line 347:  - Script call: x = $game_variables[16]
+Common Event 110 敵召喚森DG1 Line 348:  - Script call: y = $game_variables[17]
+Common Event 110 敵召喚森DG1 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 110 敵召喚森DG1 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 110 敵召喚森DG1 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 110 敵召喚森DG1 Line 352:  - Script call: $game_variables[14] = id
+Common Event 110 敵召喚森DG1 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 110 敵召喚森DG1 Line 412:  - Script call: x = $game_variables[16]
+Common Event 110 敵召喚森DG1 Line 413:  - Script call: y = $game_variables[17]
+Common Event 110 敵召喚森DG1 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 110 敵召喚森DG1 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 110 敵召喚森DG1 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 110 敵召喚森DG1 Line 417:  - Script call: $game_variables[14] = id
+Common Event 110 敵召喚森DG1 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 110 敵召喚森DG1 Line 469:  - Script call: x = $game_variables[16]
+Common Event 110 敵召喚森DG1 Line 470:  - Script call: y = $game_variables[17]
+Common Event 110 敵召喚森DG1 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 110 敵召喚森DG1 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 110 敵召喚森DG1 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 110 敵召喚森DG1 Line 474:  - Script call: $game_variables[14] = id
+Common Event 110 敵召喚森DG1 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 111 敵召喚森DG2 Line 47:  - Script call: x = $game_variables[16]
+Common Event 111 敵召喚森DG2 Line 48:  - Script call: y = $game_variables[17]
+Common Event 111 敵召喚森DG2 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 111 敵召喚森DG2 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 111 敵召喚森DG2 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 111 敵召喚森DG2 Line 52:  - Script call: $game_variables[14] = id
+Common Event 111 敵召喚森DG2 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 111 敵召喚森DG2 Line 105:  - Script call: x = $game_variables[16]
+Common Event 111 敵召喚森DG2 Line 106:  - Script call: y = $game_variables[17]
+Common Event 111 敵召喚森DG2 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 111 敵召喚森DG2 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 111 敵召喚森DG2 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 111 敵召喚森DG2 Line 110:  - Script call: $game_variables[14] = id
+Common Event 111 敵召喚森DG2 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 111 敵召喚森DG2 Line 168:  - Script call: x = $game_variables[16]
+Common Event 111 敵召喚森DG2 Line 169:  - Script call: y = $game_variables[17]
+Common Event 111 敵召喚森DG2 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 111 敵召喚森DG2 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 111 敵召喚森DG2 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 111 敵召喚森DG2 Line 173:  - Script call: $game_variables[14] = id
+Common Event 111 敵召喚森DG2 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 111 敵召喚森DG2 Line 225:  - Script call: x = $game_variables[16]
+Common Event 111 敵召喚森DG2 Line 226:  - Script call: y = $game_variables[17]
+Common Event 111 敵召喚森DG2 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 111 敵召喚森DG2 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 111 敵召喚森DG2 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 111 敵召喚森DG2 Line 230:  - Script call: $game_variables[14] = id
+Common Event 111 敵召喚森DG2 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 111 敵召喚森DG2 Line 290:  - Script call: x = $game_variables[16]
+Common Event 111 敵召喚森DG2 Line 291:  - Script call: y = $game_variables[17]
+Common Event 111 敵召喚森DG2 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 111 敵召喚森DG2 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 111 敵召喚森DG2 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 111 敵召喚森DG2 Line 295:  - Script call: $game_variables[14] = id
+Common Event 111 敵召喚森DG2 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 111 敵召喚森DG2 Line 347:  - Script call: x = $game_variables[16]
+Common Event 111 敵召喚森DG2 Line 348:  - Script call: y = $game_variables[17]
+Common Event 111 敵召喚森DG2 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 111 敵召喚森DG2 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 111 敵召喚森DG2 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 111 敵召喚森DG2 Line 352:  - Script call: $game_variables[14] = id
+Common Event 111 敵召喚森DG2 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 111 敵召喚森DG2 Line 412:  - Script call: x = $game_variables[16]
+Common Event 111 敵召喚森DG2 Line 413:  - Script call: y = $game_variables[17]
+Common Event 111 敵召喚森DG2 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 111 敵召喚森DG2 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 111 敵召喚森DG2 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 111 敵召喚森DG2 Line 417:  - Script call: $game_variables[14] = id
+Common Event 111 敵召喚森DG2 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 111 敵召喚森DG2 Line 469:  - Script call: x = $game_variables[16]
+Common Event 111 敵召喚森DG2 Line 470:  - Script call: y = $game_variables[17]
+Common Event 111 敵召喚森DG2 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 111 敵召喚森DG2 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 111 敵召喚森DG2 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 111 敵召喚森DG2 Line 474:  - Script call: $game_variables[14] = id
+Common Event 111 敵召喚森DG2 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 112 敵召喚森DG3 Line 47:  - Script call: x = $game_variables[16]
+Common Event 112 敵召喚森DG3 Line 48:  - Script call: y = $game_variables[17]
+Common Event 112 敵召喚森DG3 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 112 敵召喚森DG3 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 112 敵召喚森DG3 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 112 敵召喚森DG3 Line 52:  - Script call: $game_variables[14] = id
+Common Event 112 敵召喚森DG3 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 112 敵召喚森DG3 Line 105:  - Script call: x = $game_variables[16]
+Common Event 112 敵召喚森DG3 Line 106:  - Script call: y = $game_variables[17]
+Common Event 112 敵召喚森DG3 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 112 敵召喚森DG3 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 112 敵召喚森DG3 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 112 敵召喚森DG3 Line 110:  - Script call: $game_variables[14] = id
+Common Event 112 敵召喚森DG3 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 112 敵召喚森DG3 Line 168:  - Script call: x = $game_variables[16]
+Common Event 112 敵召喚森DG3 Line 169:  - Script call: y = $game_variables[17]
+Common Event 112 敵召喚森DG3 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 112 敵召喚森DG3 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 112 敵召喚森DG3 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 112 敵召喚森DG3 Line 173:  - Script call: $game_variables[14] = id
+Common Event 112 敵召喚森DG3 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 112 敵召喚森DG3 Line 225:  - Script call: x = $game_variables[16]
+Common Event 112 敵召喚森DG3 Line 226:  - Script call: y = $game_variables[17]
+Common Event 112 敵召喚森DG3 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 112 敵召喚森DG3 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 112 敵召喚森DG3 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 112 敵召喚森DG3 Line 230:  - Script call: $game_variables[14] = id
+Common Event 112 敵召喚森DG3 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 112 敵召喚森DG3 Line 290:  - Script call: x = $game_variables[16]
+Common Event 112 敵召喚森DG3 Line 291:  - Script call: y = $game_variables[17]
+Common Event 112 敵召喚森DG3 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 112 敵召喚森DG3 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 112 敵召喚森DG3 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 112 敵召喚森DG3 Line 295:  - Script call: $game_variables[14] = id
+Common Event 112 敵召喚森DG3 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 112 敵召喚森DG3 Line 347:  - Script call: x = $game_variables[16]
+Common Event 112 敵召喚森DG3 Line 348:  - Script call: y = $game_variables[17]
+Common Event 112 敵召喚森DG3 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 112 敵召喚森DG3 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 112 敵召喚森DG3 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 112 敵召喚森DG3 Line 352:  - Script call: $game_variables[14] = id
+Common Event 112 敵召喚森DG3 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 112 敵召喚森DG3 Line 412:  - Script call: x = $game_variables[16]
+Common Event 112 敵召喚森DG3 Line 413:  - Script call: y = $game_variables[17]
+Common Event 112 敵召喚森DG3 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 112 敵召喚森DG3 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 112 敵召喚森DG3 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 112 敵召喚森DG3 Line 417:  - Script call: $game_variables[14] = id
+Common Event 112 敵召喚森DG3 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 112 敵召喚森DG3 Line 469:  - Script call: x = $game_variables[16]
+Common Event 112 敵召喚森DG3 Line 470:  - Script call: y = $game_variables[17]
+Common Event 112 敵召喚森DG3 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 112 敵召喚森DG3 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 112 敵召喚森DG3 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 112 敵召喚森DG3 Line 474:  - Script call: $game_variables[14] = id
+Common Event 112 敵召喚森DG3 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 113 敵召喚森DG4 Line 47:  - Script call: x = $game_variables[16]
+Common Event 113 敵召喚森DG4 Line 48:  - Script call: y = $game_variables[17]
+Common Event 113 敵召喚森DG4 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 113 敵召喚森DG4 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 113 敵召喚森DG4 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 113 敵召喚森DG4 Line 52:  - Script call: $game_variables[14] = id
+Common Event 113 敵召喚森DG4 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 113 敵召喚森DG4 Line 105:  - Script call: x = $game_variables[16]
+Common Event 113 敵召喚森DG4 Line 106:  - Script call: y = $game_variables[17]
+Common Event 113 敵召喚森DG4 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 113 敵召喚森DG4 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 113 敵召喚森DG4 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 113 敵召喚森DG4 Line 110:  - Script call: $game_variables[14] = id
+Common Event 113 敵召喚森DG4 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 113 敵召喚森DG4 Line 168:  - Script call: x = $game_variables[16]
+Common Event 113 敵召喚森DG4 Line 169:  - Script call: y = $game_variables[17]
+Common Event 113 敵召喚森DG4 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 113 敵召喚森DG4 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 113 敵召喚森DG4 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 113 敵召喚森DG4 Line 173:  - Script call: $game_variables[14] = id
+Common Event 113 敵召喚森DG4 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 113 敵召喚森DG4 Line 225:  - Script call: x = $game_variables[16]
+Common Event 113 敵召喚森DG4 Line 226:  - Script call: y = $game_variables[17]
+Common Event 113 敵召喚森DG4 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 113 敵召喚森DG4 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 113 敵召喚森DG4 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 113 敵召喚森DG4 Line 230:  - Script call: $game_variables[14] = id
+Common Event 113 敵召喚森DG4 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 113 敵召喚森DG4 Line 290:  - Script call: x = $game_variables[16]
+Common Event 113 敵召喚森DG4 Line 291:  - Script call: y = $game_variables[17]
+Common Event 113 敵召喚森DG4 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 113 敵召喚森DG4 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 113 敵召喚森DG4 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 113 敵召喚森DG4 Line 295:  - Script call: $game_variables[14] = id
+Common Event 113 敵召喚森DG4 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 113 敵召喚森DG4 Line 347:  - Script call: x = $game_variables[16]
+Common Event 113 敵召喚森DG4 Line 348:  - Script call: y = $game_variables[17]
+Common Event 113 敵召喚森DG4 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 113 敵召喚森DG4 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 113 敵召喚森DG4 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 113 敵召喚森DG4 Line 352:  - Script call: $game_variables[14] = id
+Common Event 113 敵召喚森DG4 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 113 敵召喚森DG4 Line 412:  - Script call: x = $game_variables[16]
+Common Event 113 敵召喚森DG4 Line 413:  - Script call: y = $game_variables[17]
+Common Event 113 敵召喚森DG4 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 113 敵召喚森DG4 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 113 敵召喚森DG4 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 113 敵召喚森DG4 Line 417:  - Script call: $game_variables[14] = id
+Common Event 113 敵召喚森DG4 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 113 敵召喚森DG4 Line 469:  - Script call: x = $game_variables[16]
+Common Event 113 敵召喚森DG4 Line 470:  - Script call: y = $game_variables[17]
+Common Event 113 敵召喚森DG4 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 113 敵召喚森DG4 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 113 敵召喚森DG4 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 113 敵召喚森DG4 Line 474:  - Script call: $game_variables[14] = id
+Common Event 113 敵召喚森DG4 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 114 敵召喚森DG5 Line 47:  - Script call: x = $game_variables[16]
+Common Event 114 敵召喚森DG5 Line 48:  - Script call: y = $game_variables[17]
+Common Event 114 敵召喚森DG5 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 114 敵召喚森DG5 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 114 敵召喚森DG5 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 114 敵召喚森DG5 Line 52:  - Script call: $game_variables[14] = id
+Common Event 114 敵召喚森DG5 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 114 敵召喚森DG5 Line 105:  - Script call: x = $game_variables[16]
+Common Event 114 敵召喚森DG5 Line 106:  - Script call: y = $game_variables[17]
+Common Event 114 敵召喚森DG5 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 114 敵召喚森DG5 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 114 敵召喚森DG5 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 114 敵召喚森DG5 Line 110:  - Script call: $game_variables[14] = id
+Common Event 114 敵召喚森DG5 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 114 敵召喚森DG5 Line 168:  - Script call: x = $game_variables[16]
+Common Event 114 敵召喚森DG5 Line 169:  - Script call: y = $game_variables[17]
+Common Event 114 敵召喚森DG5 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 114 敵召喚森DG5 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 114 敵召喚森DG5 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 114 敵召喚森DG5 Line 173:  - Script call: $game_variables[14] = id
+Common Event 114 敵召喚森DG5 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 114 敵召喚森DG5 Line 225:  - Script call: x = $game_variables[16]
+Common Event 114 敵召喚森DG5 Line 226:  - Script call: y = $game_variables[17]
+Common Event 114 敵召喚森DG5 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 114 敵召喚森DG5 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 114 敵召喚森DG5 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 114 敵召喚森DG5 Line 230:  - Script call: $game_variables[14] = id
+Common Event 114 敵召喚森DG5 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 114 敵召喚森DG5 Line 290:  - Script call: x = $game_variables[16]
+Common Event 114 敵召喚森DG5 Line 291:  - Script call: y = $game_variables[17]
+Common Event 114 敵召喚森DG5 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 114 敵召喚森DG5 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 114 敵召喚森DG5 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 114 敵召喚森DG5 Line 295:  - Script call: $game_variables[14] = id
+Common Event 114 敵召喚森DG5 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 114 敵召喚森DG5 Line 347:  - Script call: x = $game_variables[16]
+Common Event 114 敵召喚森DG5 Line 348:  - Script call: y = $game_variables[17]
+Common Event 114 敵召喚森DG5 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 114 敵召喚森DG5 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 114 敵召喚森DG5 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 114 敵召喚森DG5 Line 352:  - Script call: $game_variables[14] = id
+Common Event 114 敵召喚森DG5 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 114 敵召喚森DG5 Line 412:  - Script call: x = $game_variables[16]
+Common Event 114 敵召喚森DG5 Line 413:  - Script call: y = $game_variables[17]
+Common Event 114 敵召喚森DG5 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 114 敵召喚森DG5 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 114 敵召喚森DG5 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 114 敵召喚森DG5 Line 417:  - Script call: $game_variables[14] = id
+Common Event 114 敵召喚森DG5 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 114 敵召喚森DG5 Line 469:  - Script call: x = $game_variables[16]
+Common Event 114 敵召喚森DG5 Line 470:  - Script call: y = $game_variables[17]
+Common Event 114 敵召喚森DG5 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 114 敵召喚森DG5 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 114 敵召喚森DG5 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 114 敵召喚森DG5 Line 474:  - Script call: $game_variables[14] = id
+Common Event 114 敵召喚森DG5 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 115 敵召喚森DG6 Line 47:  - Script call: x = $game_variables[16]
+Common Event 115 敵召喚森DG6 Line 48:  - Script call: y = $game_variables[17]
+Common Event 115 敵召喚森DG6 Line 49:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 115 敵召喚森DG6 Line 50:  - Script call: copy_map = 9                  # マップID
+Common Event 115 敵召喚森DG6 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 115 敵召喚森DG6 Line 52:  - Script call: $game_variables[14] = id
+Common Event 115 敵召喚森DG6 Line 53:  - Script call: overwrite_char($game_variables[14])
+Common Event 115 敵召喚森DG6 Line 105:  - Script call: x = $game_variables[16]
+Common Event 115 敵召喚森DG6 Line 106:  - Script call: y = $game_variables[17]
+Common Event 115 敵召喚森DG6 Line 107:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 115 敵召喚森DG6 Line 108:  - Script call: copy_map = 9                  # マップID
+Common Event 115 敵召喚森DG6 Line 109:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 115 敵召喚森DG6 Line 110:  - Script call: $game_variables[14] = id
+Common Event 115 敵召喚森DG6 Line 111:  - Script call: overwrite_char($game_variables[14])
+Common Event 115 敵召喚森DG6 Line 168:  - Script call: x = $game_variables[16]
+Common Event 115 敵召喚森DG6 Line 169:  - Script call: y = $game_variables[17]
+Common Event 115 敵召喚森DG6 Line 170:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 115 敵召喚森DG6 Line 171:  - Script call: copy_map = 9                  # マップID
+Common Event 115 敵召喚森DG6 Line 172:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 115 敵召喚森DG6 Line 173:  - Script call: $game_variables[14] = id
+Common Event 115 敵召喚森DG6 Line 174:  - Script call: overwrite_char($game_variables[14])
+Common Event 115 敵召喚森DG6 Line 225:  - Script call: x = $game_variables[16]
+Common Event 115 敵召喚森DG6 Line 226:  - Script call: y = $game_variables[17]
+Common Event 115 敵召喚森DG6 Line 227:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 115 敵召喚森DG6 Line 228:  - Script call: copy_map = 9                  # マップID
+Common Event 115 敵召喚森DG6 Line 229:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 115 敵召喚森DG6 Line 230:  - Script call: $game_variables[14] = id
+Common Event 115 敵召喚森DG6 Line 231:  - Script call: overwrite_char($game_variables[14])
+Common Event 115 敵召喚森DG6 Line 290:  - Script call: x = $game_variables[16]
+Common Event 115 敵召喚森DG6 Line 291:  - Script call: y = $game_variables[17]
+Common Event 115 敵召喚森DG6 Line 292:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 115 敵召喚森DG6 Line 293:  - Script call: copy_map = 9                  # マップID
+Common Event 115 敵召喚森DG6 Line 294:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 115 敵召喚森DG6 Line 295:  - Script call: $game_variables[14] = id
+Common Event 115 敵召喚森DG6 Line 296:  - Script call: overwrite_char($game_variables[14])
+Common Event 115 敵召喚森DG6 Line 347:  - Script call: x = $game_variables[16]
+Common Event 115 敵召喚森DG6 Line 348:  - Script call: y = $game_variables[17]
+Common Event 115 敵召喚森DG6 Line 349:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 115 敵召喚森DG6 Line 350:  - Script call: copy_map = 9                  # マップID
+Common Event 115 敵召喚森DG6 Line 351:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 115 敵召喚森DG6 Line 352:  - Script call: $game_variables[14] = id
+Common Event 115 敵召喚森DG6 Line 353:  - Script call: overwrite_char($game_variables[14])
+Common Event 115 敵召喚森DG6 Line 412:  - Script call: x = $game_variables[16]
+Common Event 115 敵召喚森DG6 Line 413:  - Script call: y = $game_variables[17]
+Common Event 115 敵召喚森DG6 Line 414:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 115 敵召喚森DG6 Line 415:  - Script call: copy_map = 9                  # マップID
+Common Event 115 敵召喚森DG6 Line 416:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 115 敵召喚森DG6 Line 417:  - Script call: $game_variables[14] = id
+Common Event 115 敵召喚森DG6 Line 418:  - Script call: overwrite_char($game_variables[14])
+Common Event 115 敵召喚森DG6 Line 469:  - Script call: x = $game_variables[16]
+Common Event 115 敵召喚森DG6 Line 470:  - Script call: y = $game_variables[17]
+Common Event 115 敵召喚森DG6 Line 471:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 115 敵召喚森DG6 Line 472:  - Script call: copy_map = 9                  # マップID
+Common Event 115 敵召喚森DG6 Line 473:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 115 敵召喚森DG6 Line 474:  - Script call: $game_variables[14] = id
+Common Event 115 敵召喚森DG6 Line 475:  - Script call: overwrite_char($game_variables[14])
+Common Event 121 ゴキブリ召喚 Line 13:  - Script call: x = $game_variables[55]
+Common Event 121 ゴキブリ召喚 Line 14:  - Script call: y = $game_variables[56]
+Common Event 121 ゴキブリ召喚 Line 15:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 121 ゴキブリ召喚 Line 16:  - Script call: copy_map = 9                  # マップID
+Common Event 121 ゴキブリ召喚 Line 17:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 121 ゴキブリ召喚 Line 18:  - Script call: $game_variables[14] = id
+Common Event 121 ゴキブリ召喚 Line 19:  - Script call: overwrite_char($game_variables[14])
+Common Event 122 躁鬱森 Line 5:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Common Event 122 躁鬱森 Line 36:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Common Event 122 躁鬱森 Line 67:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Common Event 122 躁鬱森 Line 98:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Common Event 126 怖い子システム本体 Line 1:  - Script call: $game_system.timer_hide = true
+Common Event 126 怖い子システム本体 Line 10:  - Script call: $game_system.timer_hide = true
+Common Event 126 怖い子システム本体 Line 50:  - Script call: x = $game_variables[16]
+Common Event 126 怖い子システム本体 Line 51:  - Script call: y = $game_variables[17]
+Common Event 126 怖い子システム本体 Line 52:  - Script call: copy_id = $game_variables[15]  # イベントID
+Common Event 126 怖い子システム本体 Line 53:  - Script call: copy_map = 9                  # マップID
+Common Event 126 怖い子システム本体 Line 54:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 126 怖い子システム本体 Line 55:  - Script call: $game_variables[14] = id
+Common Event 126 怖い子システム本体 Line 56:  - Script call: overwrite_char($game_variables[14])
+Common Event 127 怖い子システム１ Line 1:  - Script call: $game_system.timer_hide = true
+Common Event 128 怖い子システム２ Line 1:  - Script call: $game_system.timer_hide = true
+Common Event 128 怖い子システム２ Line 4:  - Script call: $game_system.timer_hide = true
+Common Event 149 石くん Line 30:  - Script call: x = $game_variables[18]
+Common Event 149 石くん Line 31:  - Script call: y = $game_variables[19]
+Common Event 149 石くん Line 32:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 149 石くん Line 33:  - Script call: copy_map = 9                  # マップID
+Common Event 149 石くん Line 34:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 149 石くん Line 35:  - Script call: $game_variables[14] = id
+Common Event 149 石くん Line 36:  - Script call: overwrite_char($game_variables[14])
+Common Event 156 飛ぶスタンガン君 Line 26:  - Script call: x = $game_variables[18]
+Common Event 156 飛ぶスタンガン君 Line 27:  - Script call: y = $game_variables[19]
+Common Event 156 飛ぶスタンガン君 Line 28:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 156 飛ぶスタンガン君 Line 29:  - Script call: copy_map = 9                  # マップID
+Common Event 156 飛ぶスタンガン君 Line 30:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 156 飛ぶスタンガン君 Line 31:  - Script call: $game_variables[14] = id
+Common Event 156 飛ぶスタンガン君 Line 48:  - Script call: x = $game_variables[18]
+Common Event 156 飛ぶスタンガン君 Line 49:  - Script call: y = $game_variables[19]
+Common Event 156 飛ぶスタンガン君 Line 50:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 156 飛ぶスタンガン君 Line 51:  - Script call: copy_map = 9                  # マップID
+Common Event 156 飛ぶスタンガン君 Line 52:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 156 飛ぶスタンガン君 Line 53:  - Script call: $game_variables[14] = id
+Common Event 156 飛ぶスタンガン君 Line 70:  - Script call: x = $game_variables[18]
+Common Event 156 飛ぶスタンガン君 Line 71:  - Script call: y = $game_variables[19]
+Common Event 156 飛ぶスタンガン君 Line 72:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 156 飛ぶスタンガン君 Line 73:  - Script call: copy_map = 9                  # マップID
+Common Event 156 飛ぶスタンガン君 Line 74:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 156 飛ぶスタンガン君 Line 75:  - Script call: $game_variables[14] = id
+Common Event 156 飛ぶスタンガン君 Line 92:  - Script call: x = $game_variables[18]
+Common Event 156 飛ぶスタンガン君 Line 93:  - Script call: y = $game_variables[19]
+Common Event 156 飛ぶスタンガン君 Line 94:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 156 飛ぶスタンガン君 Line 95:  - Script call: copy_map = 9                  # マップID
+Common Event 156 飛ぶスタンガン君 Line 96:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 156 飛ぶスタンガン君 Line 97:  - Script call: $game_variables[14] = id
+Common Event 156 飛ぶスタンガン君 Line 114:  - Script call: x = $game_variables[18]
+Common Event 156 飛ぶスタンガン君 Line 115:  - Script call: y = $game_variables[19]
+Common Event 156 飛ぶスタンガン君 Line 116:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 156 飛ぶスタンガン君 Line 117:  - Script call: copy_map = 9                  # マップID
+Common Event 156 飛ぶスタンガン君 Line 118:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 156 飛ぶスタンガン君 Line 119:  - Script call: $game_variables[14] = id
+Common Event 156 飛ぶスタンガン君 Line 136:  - Script call: x = $game_variables[18]
+Common Event 156 飛ぶスタンガン君 Line 137:  - Script call: y = $game_variables[19]
+Common Event 156 飛ぶスタンガン君 Line 138:  - Script call: copy_id = $game_variables[9]  # イベントID
+Common Event 156 飛ぶスタンガン君 Line 139:  - Script call: copy_map = 9                  # マップID
+Common Event 156 飛ぶスタンガン君 Line 140:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Common Event 156 飛ぶスタンガン君 Line 141:  - Script call: $game_variables[14] = id
+Map 1 OP - Event 5 EV005 (1,2) - Page 1 Line 2:  - Script call: GameManager.new_game
+Map 1 OP - Event 6 EV006 (1,3) - Page 1 Line 2:  - Script call: GameManager.continue
+Map 1 OP - Event 7 EV007 (1,4) - Page 1 Line 2:  - Script call: GameManager.shutdown
+Map 2 最初の部屋 - Event 1 EV001 (0,0) - Page 1 Line 58:  - Script call: end_noise
+Map 2 最初の部屋 - Event 1 EV001 (0,0) - Page 1 Line 127:  - Script call: $game_map.screen.start_fadein(0)
+Map 2 最初の部屋 - Event 5 EV005 (19,11) - Page 1 Line 7:  - Script call: write_public_data
+Map 2 最初の部屋 - Event 11 EV011 (0,2) - Page 1 Line 25:  - Script call: map_effects.set_wave(0, 180, 360, 60)
+Map 2 最初の部屋 - Event 11 EV011 (0,2) - Page 1 Line 26:  - Script call: map_effects.set_opacity(255, 60)
+Map 2 最初の部屋 - Event 11 EV011 (0,2) - Page 1 Line 27:  - Script call: map_effects.back = false
+Map 2 最初の部屋 - Event 25 EV025 (1,0) - Page 1 Line 8:  - Script call: $game_map.screen.start_fadein(0)
+Map 2 最初の部屋 - Event 44 EV044 (7,0) - Page 1 Line 20:  - Script call: $game_map.screen.start_fadein(0)
+Map 3 OPPC - Event 5 EV005 (2,9) - Page 1 Line 2:  - Script call: GameManager.continue
+Map 4 OPPC2 - Event 20 EV020 (5,10) - Page 1 Line 10:  - Script call: start_off_display
+Map 4 OPPC2 - Event 20 EV020 (5,10) - Page 1 Line 15:  - Script call: GameManager.shutdown
+Map 4 OPPC2 - Event 21 EV021 (4,10) - Page 1 Line 10:  - Script call: start_off_display
+Map 4 OPPC2 - Event 21 EV021 (4,10) - Page 1 Line 15:  - Script call: GameManager.shutdown
+Map 4 OPPC2 - Event 22 EV022 (2,5) - Page 1 Line 2:  - Script call: GameManager.continue
+Map 4 OPPC2 - Event 23 EV023 (1,5) - Page 1 Line 2:  - Script call: GameManager.continue
+Map 4 OPPC2 - Event 24 EV024 (2,4) - Page 1 Line 2:  - Script call: GameManager.continue
+Map 4 OPPC2 - Event 25 EV025 (1,4) - Page 1 Line 2:  - Script call: GameManager.continue
+Map 6 PC2 - Event 20 EV020 (5,10) - Page 1 Line 12:  - Script call: start_off_display
+Map 6 PC2 - Event 20 EV020 (5,10) - Page 2 Line 8:  - Script call: start_off_display
+Map 6 PC2 - Event 21 EV021 (4,10) - Page 1 Line 12:  - Script call: start_off_display
+Map 6 PC2 - Event 21 EV021 (4,10) - Page 2 Line 8:  - Script call: start_off_display
+Map 8 デバッグ - Event 35 EV035 (3,15) - Page 1 Line 43:  - Script call: x = $game_variables[16]
+Map 8 デバッグ - Event 35 EV035 (3,15) - Page 1 Line 44:  - Script call: y = $game_variables[17]
+Map 8 デバッグ - Event 35 EV035 (3,15) - Page 1 Line 45:  - Script call: copy_id = $game_variables[15]  # イベントID
+Map 8 デバッグ - Event 35 EV035 (3,15) - Page 1 Line 46:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 35 EV035 (3,15) - Page 1 Line 47:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 35 EV035 (3,15) - Page 1 Line 48:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 35 EV035 (3,15) - Page 1 Line 49:  - Script call: overwrite_char($game_variables[14])
+Map 8 デバッグ - Event 96 EV096 (11,3) - Page 1 Line 1:  - Script call: map_effects.back = false
+Map 8 デバッグ - Event 124 飛び越える (1,8) - Page 1 Line 4:  - Script call: overwrite_char(get_invoker)
+Map 8 デバッグ - Event 124 飛び越える (1,8) - Page 1 Line 6:  - Script call: overwrite_char(get_invoker)
+Map 8 デバッグ - Event 124 飛び越える (1,8) - Page 1 Line 9:  - Script call: overwrite_char(get_invoker)
+Map 8 デバッグ - Event 142 EV142 (8,3) - Page 1 Line 66:  - Script call: dis(2)
+Map 8 デバッグ - Event 142 EV142 (8,3) - Page 1 Line 73:  - Script call: dis(0)
+Map 8 デバッグ - Event 147 EV147 (1,12) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 147 EV147 (1,12) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 147 EV147 (1,12) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 147 EV147 (1,12) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 147 EV147 (1,12) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 147 EV147 (1,12) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 148 EV148 (12,3) - Page 1 Line 3:  - Script call: map_effects.set_zoom(200, 60)
+Map 8 デバッグ - Event 148 EV148 (12,3) - Page 1 Line 4:  - Script call: map_effects.refresh_rate = 60
+Map 8 デバッグ - Event 148 EV148 (12,3) - Page 1 Line 6:  - Script call: map_effects.set_zoom(100, 60)
+Map 8 デバッグ - Event 152 EV152 (7,8) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 152 EV152 (7,8) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 152 EV152 (7,8) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 152 EV152 (7,8) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 152 EV152 (7,8) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 152 EV152 (7,8) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 153 EV153 (8,8) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 153 EV153 (8,8) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 153 EV153 (8,8) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 153 EV153 (8,8) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 153 EV153 (8,8) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 153 EV153 (8,8) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 154 EV154 (9,8) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 154 EV154 (9,8) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 154 EV154 (9,8) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 154 EV154 (9,8) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 154 EV154 (9,8) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 154 EV154 (9,8) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 155 EV155 (10,8) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 155 EV155 (10,8) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 155 EV155 (10,8) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 155 EV155 (10,8) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 155 EV155 (10,8) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 155 EV155 (10,8) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 156 EV156 (11,8) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 156 EV156 (11,8) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 156 EV156 (11,8) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 156 EV156 (11,8) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 156 EV156 (11,8) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 156 EV156 (11,8) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 157 EV157 (7,7) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 157 EV157 (7,7) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 157 EV157 (7,7) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 157 EV157 (7,7) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 157 EV157 (7,7) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 157 EV157 (7,7) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 158 EV158 (8,7) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 158 EV158 (8,7) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 158 EV158 (8,7) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 158 EV158 (8,7) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 158 EV158 (8,7) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 158 EV158 (8,7) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 159 EV159 (9,7) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 159 EV159 (9,7) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 159 EV159 (9,7) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 159 EV159 (9,7) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 159 EV159 (9,7) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 159 EV159 (9,7) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 160 EV160 (10,7) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 160 EV160 (10,7) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 160 EV160 (10,7) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 160 EV160 (10,7) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 160 EV160 (10,7) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 160 EV160 (10,7) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 161 EV161 (11,7) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 161 EV161 (11,7) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 161 EV161 (11,7) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 161 EV161 (11,7) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 161 EV161 (11,7) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 161 EV161 (11,7) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 162 EV162 (4,5) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 162 EV162 (4,5) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 162 EV162 (4,5) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 162 EV162 (4,5) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 162 EV162 (4,5) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 162 EV162 (4,5) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 163 EV163 (3,5) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 163 EV163 (3,5) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 163 EV163 (3,5) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 163 EV163 (3,5) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 163 EV163 (3,5) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 163 EV163 (3,5) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 164 EV164 (5,5) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 164 EV164 (5,5) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 164 EV164 (5,5) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 164 EV164 (5,5) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 164 EV164 (5,5) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 164 EV164 (5,5) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 165 EV165 (1,10) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 165 EV165 (1,10) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 165 EV165 (1,10) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 165 EV165 (1,10) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 165 EV165 (1,10) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 165 EV165 (1,10) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 175 EV175 (13,3) - Page 1 Line 3:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 8 デバッグ - Event 176 EV176 (14,3) - Page 1 Line 3:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 8 デバッグ - Event 176 EV176 (14,3) - Page 1 Line 4:  - Script call: map_effects.set_opacity(50, 60)
+Map 8 デバッグ - Event 176 EV176 (14,3) - Page 1 Line 5:  - Script call: map_effects.back = true
+Map 8 デバッグ - Event 176 EV176 (14,3) - Page 1 Line 7:  - Script call: map_effects.set_wave(0, 180, 360, 60)
+Map 8 デバッグ - Event 176 EV176 (14,3) - Page 1 Line 8:  - Script call: map_effects.set_opacity(255, 60)
+Map 8 デバッグ - Event 176 EV176 (14,3) - Page 1 Line 10:  - Script call: map_effects.back = false
+Map 8 デバッグ - Event 177 EV177 (15,3) - Page 1 Line 3:  - Script call: map_effects.mirror = true
+Map 8 デバッグ - Event 177 EV177 (15,3) - Page 1 Line 5:  - Script call: map_effects.mirror = false
+Map 8 デバッグ - Event 187 EV187 (18,3) - Page 1 Line 3:  - Script call: map_effects.blend_type = 2
+Map 8 デバッグ - Event 187 EV187 (18,3) - Page 1 Line 4:  - Script call: map_effects.set_opacity(75)
+Map 8 デバッグ - Event 187 EV187 (18,3) - Page 1 Line 6:  - Script call: map_effects.blend_type = 0
+Map 8 デバッグ - Event 187 EV187 (18,3) - Page 1 Line 7:  - Script call: map_effects.set_opacity(100)
+Map 8 デバッグ - Event 187 EV187 (18,3) - Page 1 Line 8:  - Script call: map_effects.back = false
+Map 8 デバッグ - Event 188 EV188 (17,3) - Page 1 Line 3:  - Script call: map_effects.blend_type = 1
+Map 8 デバッグ - Event 188 EV188 (17,3) - Page 1 Line 4:  - Script call: map_effects.back = true
+Map 8 デバッグ - Event 191 EV191 (19,3) - Page 1 Line 3:  - Script call: map_effects.set_pixelize(200, 60)
+Map 8 デバッグ - Event 191 EV191 (19,3) - Page 1 Line 4:  - Script call: map_effects.refresh_rate = 30
+Map 8 デバッグ - Event 192 EV192 (20,3) - Page 1 Line 3:  - Script call: map_effects.set_pixelize(4000, 60)
+Map 8 デバッグ - Event 192 EV192 (20,3) - Page 1 Line 5:  - Script call: map_effects.set_pixelize(100, 60)
+Map 8 デバッグ - Event 200 EV200 (21,3) - Page 1 Line 3:  - Script call: map_effects.set_hue(180, 60)
+Map 8 デバッグ - Event 200 EV200 (21,3) - Page 1 Line 5:  - Script call: map_effects.set_hue(360, 60)
+Map 8 デバッグ - Event 201 EV201 (22,3) - Page 1 Line 3:  - Script call: map_effects.set_gaussian_blur(1)
+Map 8 デバッグ - Event 202 EV202 (23,3) - Page 1 Line 3:  - Script call: map_effects.set_linear_blur(0, 40, 60)
+Map 8 デバッグ - Event 203 EV203 (24,3) - Page 1 Line 3:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 8 デバッグ - Event 203 EV203 (24,3) - Page 1 Line 5:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 8 デバッグ - Event 204 EV204 (26,3) - Page 1 Line 3:  - Script call: map_effects.set_zoom_blur(200, 60)
+Map 8 デバッグ - Event 204 EV204 (26,3) - Page 1 Line 4:  - Script call: map_effects.setup_blur(4, 100, 0)
+Map 8 デバッグ - Event 205 EV205 (25,3) - Page 1 Line 3:  - Script call: map_effects.setup_blur(4, 100, 0, 60)
+Map 8 デバッグ - Event 206 EV206 (27,3) - Page 1 Line 3:  - Script call: map_effects.set_origin(100, 0, 60)
+Map 8 デバッグ - Event 207 EV207 (28,3) - Page 1 Line 3:  - Script call: map_effects.set_zoom_blur(50, 60)
+Map 8 デバッグ - Event 207 EV207 (28,3) - Page 1 Line 4:  - Script call: map_effects.set_origin(50, 50, 60)
+Map 8 デバッグ - Event 207 EV207 (28,3) - Page 1 Line 6:  - Script call: map_effects.set_zoom_blur(100, 60)
+Map 8 デバッグ - Event 207 EV207 (28,3) - Page 1 Line 7:  - Script call: map_effects.setup_blur(4, 0, 0, 60)
+Map 8 デバッグ - Event 208 EV208 (29,3) - Page 1 Line 3:  - Script call: map_effects.set_radial_blur(10, 60)
+Map 8 デバッグ - Event 209 EV209 (30,3) - Page 1 Line 4:  - Script call: map_effects.set_radial_blur(50, 60)
+Map 8 デバッグ - Event 209 EV209 (30,3) - Page 1 Line 5:  - Script call: map_effects.set_zoom_blur(50, 60)
+Map 8 デバッグ - Event 209 EV209 (30,3) - Page 1 Line 6:  - Script call: map_effects.setup_blur(4, 50, 5, 60)
+Map 8 デバッグ - Event 209 EV209 (30,3) - Page 1 Line 8:  - Script call: map_effects.set_radial_blur(0, 60)
+Map 8 デバッグ - Event 209 EV209 (30,3) - Page 1 Line 9:  - Script call: map_effects.set_zoom_blur(100, 60)
+Map 8 デバッグ - Event 209 EV209 (30,3) - Page 1 Line 10:  - Script call: map_effects.setup_blur(4, 0, 0, 60)
+Map 8 デバッグ - Event 210 EV210 (31,3) - Page 1 Line 3:  - Script call: map_effects.set_motion_blur(1)
+Map 8 デバッグ - Event 220 EV220 (16,25) - Page 1 Line 6:  - Script call: write_public_data
+Map 8 デバッグ - Event 220 EV220 (16,25) - Page 1 Line 10:  - Script call: write_public_data
+Map 8 デバッグ - Event 220 EV220 (16,25) - Page 1 Line 13:  - Script call: write_public_data
+Map 8 デバッグ - Event 221 EV221 (9,25) - Page 1 Line 12:  - Script call: write_public_data
+Map 8 デバッグ - Event 221 EV221 (9,25) - Page 1 Line 22:  - Script call: write_public_data
+Map 8 デバッグ - Event 221 EV221 (9,25) - Page 1 Line 32:  - Script call: write_public_data
+Map 8 デバッグ - Event 221 EV221 (9,25) - Page 1 Line 42:  - Script call: write_public_data
+Map 8 デバッグ - Event 222 EV222 (14,24) - Page 1 Line 7:  - Script call: write_public_data
+Map 8 デバッグ - Event 223 EV223 (16,26) - Page 1 Line 6:  - Script call: write_public_data
+Map 8 デバッグ - Event 223 EV223 (16,26) - Page 1 Line 10:  - Script call: write_public_data
+Map 8 デバッグ - Event 223 EV223 (16,26) - Page 1 Line 13:  - Script call: write_public_data
+Map 8 デバッグ - Event 224 EV224 (14,23) - Page 1 Line 6:  - Script call: write_public_data
+Map 8 デバッグ - Event 224 EV224 (14,23) - Page 1 Line 10:  - Script call: write_public_data
+Map 8 デバッグ - Event 224 EV224 (14,23) - Page 1 Line 13:  - Script call: write_public_data
+Map 8 デバッグ - Event 225 EV225 (9,26) - Page 1 Line 12:  - Script call: write_public_data
+Map 8 デバッグ - Event 225 EV225 (9,26) - Page 1 Line 22:  - Script call: write_public_data
+Map 8 デバッグ - Event 225 EV225 (9,26) - Page 1 Line 32:  - Script call: write_public_data
+Map 8 デバッグ - Event 225 EV225 (9,26) - Page 1 Line 38:  - Script call: write_public_data
+Map 8 デバッグ - Event 227 2* (1,3) - Page 1 Line 13:  - Script call: $game_map.clear_erased_events
+Map 8 デバッグ - Event 227 2* (1,3) - Page 1 Line 17:  - Script call: stop(5)
+Map 8 デバッグ - Event 243 EV243 (7,9) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 243 EV243 (7,9) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 243 EV243 (7,9) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 243 EV243 (7,9) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 243 EV243 (7,9) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 243 EV243 (7,9) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 244 EV244 (8,9) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 244 EV244 (8,9) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 244 EV244 (8,9) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 244 EV244 (8,9) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 244 EV244 (8,9) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 244 EV244 (8,9) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 245 EV245 (10,9) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 245 EV245 (10,9) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 245 EV245 (10,9) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 245 EV245 (10,9) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 245 EV245 (10,9) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 245 EV245 (10,9) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 246 EV246 (11,9) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 246 EV246 (11,9) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 246 EV246 (11,9) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 246 EV246 (11,9) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 246 EV246 (11,9) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 246 EV246 (11,9) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 8 デバッグ - Event 247 EV247 (9,9) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 8 デバッグ - Event 247 EV247 (9,9) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 8 デバッグ - Event 247 EV247 (9,9) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 8 デバッグ - Event 247 EV247 (9,9) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 8 デバッグ - Event 247 EV247 (9,9) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 8 デバッグ - Event 247 EV247 (9,9) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 9 倉庫 - Event 21 tt (3,1) - Page 1 Line 4:  - Conditional Branch script call: start_player?
+Map 9 倉庫 - Event 21 tt (3,1) - Page 1 Line 9:  - Script call: # get_invoker でこのイベントを起動したイベントのID
+Map 9 倉庫 - Event 21 tt (3,1) - Page 1 Line 10:  - Script call: # を取得して overwrite_char で次の命令の対象に設定
+Map 9 倉庫 - Event 21 tt (3,1) - Page 1 Line 11:  - Script call: overwrite_char(get_invoker)
+Map 9 倉庫 - Event 21 tt (3,1) - Page 1 Line 21:  - Script call: # get_invoker でこのイベントを起動したイベントのID
+Map 9 倉庫 - Event 21 tt (3,1) - Page 1 Line 22:  - Script call: # を取得して overwrite_char で次の命令の対象に設定
+Map 9 倉庫 - Event 21 tt (3,1) - Page 1 Line 23:  - Script call: overwrite_char(get_invoker)
+Map 9 倉庫 - Event 49 EV049 (8,4) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 9 倉庫 - Event 49 EV049 (8,4) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 9 倉庫 - Event 49 EV049 (8,4) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 9 倉庫 - Event 49 EV049 (8,4) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 9 倉庫 - Event 49 EV049 (8,4) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 9 倉庫 - Event 49 EV049 (8,4) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 9 倉庫 - Event 50 EV050 (9,4) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 9 倉庫 - Event 50 EV050 (9,4) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 9 倉庫 - Event 50 EV050 (9,4) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 9 倉庫 - Event 50 EV050 (9,4) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 9 倉庫 - Event 50 EV050 (9,4) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 9 倉庫 - Event 50 EV050 (9,4) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 9 倉庫 - Event 52 EV052 (11,4) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 9 倉庫 - Event 52 EV052 (11,4) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 9 倉庫 - Event 52 EV052 (11,4) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 9 倉庫 - Event 52 EV052 (11,4) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 9 倉庫 - Event 52 EV052 (11,4) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 9 倉庫 - Event 52 EV052 (11,4) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 9 倉庫 - Event 53 EV053 (12,4) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 9 倉庫 - Event 53 EV053 (12,4) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 9 倉庫 - Event 53 EV053 (12,4) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 9 倉庫 - Event 53 EV053 (12,4) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 9 倉庫 - Event 53 EV053 (12,4) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 9 倉庫 - Event 53 EV053 (12,4) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 9 倉庫 - Event 57 EV057 (16,4) - Page 1 Line 22:  - Script call: x = $game_variables[18]
+Map 9 倉庫 - Event 57 EV057 (16,4) - Page 1 Line 23:  - Script call: y = $game_variables[19]
+Map 9 倉庫 - Event 57 EV057 (16,4) - Page 1 Line 24:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 9 倉庫 - Event 57 EV057 (16,4) - Page 1 Line 25:  - Script call: copy_map = 9                  # マップID
+Map 9 倉庫 - Event 57 EV057 (16,4) - Page 1 Line 26:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 9 倉庫 - Event 57 EV057 (16,4) - Page 1 Line 27:  - Script call: $game_variables[14] = id
+Map 9 倉庫 - Event 156 aaaaaa (7,13) - Page 1 Line 4:  - Script call: map_effects.set_motion_blur(1)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 6:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 7:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 8:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 9:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 10:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 11:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 12:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 16:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 17:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 18:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 19:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 20:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 21:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 22:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 26:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 27:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 28:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 29:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 30:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 31:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 32:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 36:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 37:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 38:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 39:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 40:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 41:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 42:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 47:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 48:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 49:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 50:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 51:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 52:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 53:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 58:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 59:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 60:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 61:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 62:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 63:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 64:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 68:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 69:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 70:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 71:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 72:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 73:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 74:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 78:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 79:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 80:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 81:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 82:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 83:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 84:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 88:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 89:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 90:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 91:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 92:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 93:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 94:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 101:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 102:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 103:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 104:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 105:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 106:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 107:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 114:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 115:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 116:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 117:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 118:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 119:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 120:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 124:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 125:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 126:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 127:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 128:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 129:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 130:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 134:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 135:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 136:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 137:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 138:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 139:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 140:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 144:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 145:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 146:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 147:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 148:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 149:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 150:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 154:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 155:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 156:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 157:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 158:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 159:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 160:  - Script call: overwrite_char($game_variables[14])
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 164:  - Script call: x = $game_variables[18]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 165:  - Script call: y = $game_variables[19]
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 166:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 167:  - Script call: copy_map = 9                  # マップID
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 168:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 169:  - Script call: $game_variables[14] = id
+Map 11 ボーナスアイテムステージ - Event 2 EV002 (1,0) - Page 1 Line 170:  - Script call: overwrite_char($game_variables[14])
+Map 13 アイテム屋 - Event 2 EV002 (0,1) - Page 1 Line 4:  - Script call: x = $game_variables[18]
+Map 13 アイテム屋 - Event 2 EV002 (0,1) - Page 1 Line 5:  - Script call: y = $game_variables[19]
+Map 13 アイテム屋 - Event 2 EV002 (0,1) - Page 1 Line 6:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 13 アイテム屋 - Event 2 EV002 (0,1) - Page 1 Line 7:  - Script call: copy_map = 9                  # マップID
+Map 13 アイテム屋 - Event 2 EV002 (0,1) - Page 1 Line 8:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 13 アイテム屋 - Event 2 EV002 (0,1) - Page 1 Line 9:  - Script call: $game_variables[14] = id
+Map 13 アイテム屋 - Event 2 EV002 (0,1) - Page 1 Line 10:  - Script call: overwrite_char($game_variables[14])
+Map 13 アイテム屋 - Event 6 EV006 (1,1) - Page 1 Line 4:  - Script call: x = $game_variables[18]
+Map 13 アイテム屋 - Event 6 EV006 (1,1) - Page 1 Line 5:  - Script call: y = $game_variables[19]
+Map 13 アイテム屋 - Event 6 EV006 (1,1) - Page 1 Line 6:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 13 アイテム屋 - Event 6 EV006 (1,1) - Page 1 Line 7:  - Script call: copy_map = 9                  # マップID
+Map 13 アイテム屋 - Event 6 EV006 (1,1) - Page 1 Line 8:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 13 アイテム屋 - Event 6 EV006 (1,1) - Page 1 Line 9:  - Script call: $game_variables[14] = id
+Map 13 アイテム屋 - Event 6 EV006 (1,1) - Page 1 Line 10:  - Script call: overwrite_char($game_variables[14])
+Map 13 アイテム屋 - Event 8 EV008 (2,1) - Page 1 Line 4:  - Script call: x = $game_variables[18]
+Map 13 アイテム屋 - Event 8 EV008 (2,1) - Page 1 Line 5:  - Script call: y = $game_variables[19]
+Map 13 アイテム屋 - Event 8 EV008 (2,1) - Page 1 Line 6:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 13 アイテム屋 - Event 8 EV008 (2,1) - Page 1 Line 7:  - Script call: copy_map = 9                  # マップID
+Map 13 アイテム屋 - Event 8 EV008 (2,1) - Page 1 Line 8:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 13 アイテム屋 - Event 8 EV008 (2,1) - Page 1 Line 9:  - Script call: $game_variables[14] = id
+Map 13 アイテム屋 - Event 8 EV008 (2,1) - Page 1 Line 10:  - Script call: overwrite_char($game_variables[14])
+Map 16 カジノ - Event 2 EV002 (6,5) - Page 1 Line 18:  - Script call: x = $game_variables[18]
+Map 16 カジノ - Event 2 EV002 (6,5) - Page 1 Line 19:  - Script call: y = $game_variables[19]
+Map 16 カジノ - Event 2 EV002 (6,5) - Page 1 Line 20:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 16 カジノ - Event 2 EV002 (6,5) - Page 1 Line 21:  - Script call: copy_map = 9                  # マップID
+Map 16 カジノ - Event 2 EV002 (6,5) - Page 1 Line 22:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 16 カジノ - Event 2 EV002 (6,5) - Page 1 Line 23:  - Script call: $game_variables[14] = id
+Map 16 カジノ - Event 2 EV002 (6,5) - Page 1 Line 24:  - Script call: overwrite_char($game_variables[14])
+Map 16 カジノ - Event 6 EV006 (3,5) - Page 1 Line 6:  - Script call: start_poker
+Map 16 カジノ - Event 75 EV075 (0,12) - Page 1 Line 6:  - Script call: start_pslot(0,)
+Map 16 カジノ - Event 76 EV076 (7,5) - Page 1 Line 18:  - Script call: x = $game_variables[18]
+Map 16 カジノ - Event 76 EV076 (7,5) - Page 1 Line 19:  - Script call: y = $game_variables[19]
+Map 16 カジノ - Event 76 EV076 (7,5) - Page 1 Line 20:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 16 カジノ - Event 76 EV076 (7,5) - Page 1 Line 21:  - Script call: copy_map = 9                  # マップID
+Map 16 カジノ - Event 76 EV076 (7,5) - Page 1 Line 22:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 16 カジノ - Event 76 EV076 (7,5) - Page 1 Line 23:  - Script call: $game_variables[14] = id
+Map 16 カジノ - Event 76 EV076 (7,5) - Page 1 Line 24:  - Script call: overwrite_char($game_variables[14])
+Map 32 屋上OP - Event 1 EV001 (0,0) - Page 1 Line 8:  - Script call: Font.default_size = 35         #フォントサイズ
+Map 32 屋上OP - Event 1 EV001 (0,0) - Page 1 Line 32:  - Script call: Font.default_size = 24
+Map 33 屋上OP２ - Event 2 EV002 (22,17) - Page 1 Line 4:  - Script call: $game_map.screen.start_fadein(0)
+Map 33 屋上OP２ - Event 2 EV002 (22,17) - Page 2 Line 8:  - Script call: $game_map.screen.start_fadein(0)
+Map 34 最初の部屋OP - Event 1 EV001 (0,0) - Page 1 Line 13:  - Script call: $game_map.screen.start_fadein(0)
+Map 34 最初の部屋OP - Event 44 EV044 (1,2) - Page 1 Line 20:  - Script call: $game_map.screen.start_fadein(0)
+Map 35 カウンセリング - Event 44 EV044 (1,2) - Page 1 Line 20:  - Script call: $game_map.screen.start_fadein(0)
+Map 36 街 - Event 13 EV013 (7,35) - Page 1 Line 17:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 36 街 - Event 13 EV013 (7,35) - Page 1 Line 19:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 37 街2 - Event 13 EV013 (17,12) - Page 1 Line 17:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 37 街2 - Event 13 EV013 (17,12) - Page 1 Line 19:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 40 街5 - Event 112 EV112 (11,0) - Page 1 Line 43:  - Script call: end_noise
+Map 41 街6 - Event 1 EV001 (29,27) - Page 1 Line 2:  - Script call: map_effects.set_motion_blur(0)
+Map 41 街6 - Event 16 EV016 (29,29) - Page 1 Line 3:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 41 街6 - Event 16 EV016 (29,29) - Page 1 Line 4:  - Script call: map_effects.set_motion_blur(0)
+Map 41 街6 - Event 16 EV016 (29,29) - Page 1 Line 47:  - Script call: end_noise
+Map 41 街6 - Event 16 EV016 (29,29) - Page 2 Line 3:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 41 街6 - Event 16 EV016 (29,29) - Page 2 Line 47:  - Script call: end_noise
+Map 41 街6 - Event 17 EV017 (29,28) - Page 1 Line 1:  - Script call: map_effects.back = false
+Map 43 廊下 - Event 1 EV001 (0,0) - Page 1 Line 51:  - Script call: end_noise
+Map 43 廊下 - Event 1 EV001 (0,0) - Page 1 Line 97:  - Script call: $game_map.screen.start_fadein(0)
+Map 43 廊下 - Event 5 EV005 (34,19) - Page 1 Line 3:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 43 廊下 - Event 5 EV005 (34,19) - Page 1 Line 45:  - Script call: end_noise
+Map 43 廊下 - Event 11 EV011 (0,1) - Page 1 Line 24:  - Script call: map_effects.set_wave(0, 180, 360, 60)
+Map 43 廊下 - Event 11 EV011 (0,1) - Page 1 Line 25:  - Script call: map_effects.set_opacity(255, 60)
+Map 43 廊下 - Event 11 EV011 (0,1) - Page 1 Line 26:  - Script call: map_effects.back = false
+Map 43 廊下 - Event 25 EV025 (3,0) - Page 1 Line 7:  - Script call: $game_map.screen.start_fadein(0)
+Map 43 廊下 - Event 44 EV044 (4,0) - Page 1 Line 20:  - Script call: $game_map.screen.start_fadein(0)
+Map 44 廊下 - Event 1 EV001 (0,0) - Page 1 Line 51:  - Script call: end_noise
+Map 44 廊下 - Event 1 EV001 (0,0) - Page 1 Line 97:  - Script call: $game_map.screen.start_fadein(0)
+Map 44 廊下 - Event 4 EV004 (34,19) - Page 1 Line 2:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 44 廊下 - Event 4 EV004 (34,19) - Page 1 Line 44:  - Script call: end_noise
+Map 44 廊下 - Event 11 EV011 (0,1) - Page 1 Line 24:  - Script call: map_effects.set_wave(0, 180, 360, 60)
+Map 44 廊下 - Event 11 EV011 (0,1) - Page 1 Line 25:  - Script call: map_effects.set_opacity(255, 60)
+Map 44 廊下 - Event 11 EV011 (0,1) - Page 1 Line 26:  - Script call: map_effects.back = false
+Map 44 廊下 - Event 25 EV025 (3,0) - Page 1 Line 7:  - Script call: $game_map.screen.start_fadein(0)
+Map 44 廊下 - Event 44 EV044 (4,0) - Page 1 Line 20:  - Script call: $game_map.screen.start_fadein(0)
+Map 45 廊下 - Event 1 EV001 (0,0) - Page 1 Line 51:  - Script call: end_noise
+Map 45 廊下 - Event 1 EV001 (0,0) - Page 1 Line 97:  - Script call: $game_map.screen.start_fadein(0)
+Map 45 廊下 - Event 4 EV004 (34,19) - Page 1 Line 2:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 45 廊下 - Event 4 EV004 (34,19) - Page 1 Line 44:  - Script call: end_noise
+Map 45 廊下 - Event 11 EV011 (0,1) - Page 1 Line 24:  - Script call: map_effects.set_wave(0, 180, 360, 60)
+Map 45 廊下 - Event 11 EV011 (0,1) - Page 1 Line 25:  - Script call: map_effects.set_opacity(255, 60)
+Map 45 廊下 - Event 11 EV011 (0,1) - Page 1 Line 26:  - Script call: map_effects.back = false
+Map 45 廊下 - Event 25 EV025 (3,0) - Page 1 Line 7:  - Script call: $game_map.screen.start_fadein(0)
+Map 45 廊下 - Event 44 EV044 (4,0) - Page 1 Line 20:  - Script call: $game_map.screen.start_fadein(0)
+Map 46 廊下 - Event 1 EV001 (33,27) - Page 1 Line 3:  - Script call: map_effects.set_wave(0, 180, 360, 60)
+Map 46 廊下 - Event 1 EV001 (33,27) - Page 1 Line 4:  - Script call: map_effects.set_opacity(255, 60)
+Map 46 廊下 - Event 1 EV001 (33,27) - Page 1 Line 5:  - Script call: map_effects.back = false
+Map 47 難易度選択（プレイヤー初期位置) - Event 3 EV003 (0,1) - Page 3 Line 3:  - Script call: write_public_data
+Map 48 室内ダンジョン20 - Event 6 EV006 (1,0) - Page 1 Line 49:  - Script call: end_noise
+Map 50 終了のお知らせ - Event 3 EV003 (0,0) - Page 1 Line 3:  - Script call: map_effects.set_wave(0, 180, 360, 60)
+Map 50 終了のお知らせ - Event 3 EV003 (0,0) - Page 1 Line 4:  - Script call: map_effects.set_opacity(255, 60)
+Map 50 終了のお知らせ - Event 3 EV003 (0,0) - Page 1 Line 5:  - Script call: map_effects.back = false
+Map 50 終了のお知らせ - Event 3 EV003 (0,0) - Page 1 Line 44:  - Script call: end_noise
+Map 51 20階到達1回め - Event 2 EV002 (16,79) - Page 2 Line 36:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 51 20階到達1回め - Event 2 EV002 (16,79) - Page 2 Line 38:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 51 20階到達1回め - Event 3 EV003 (14,79) - Page 1 Line 4:  - Script call: map_effects.set_wave(0, 180, 360, 60)
+Map 51 20階到達1回め - Event 3 EV003 (14,79) - Page 1 Line 5:  - Script call: map_effects.set_opacity(255, 60)
+Map 51 20階到達1回め - Event 3 EV003 (14,79) - Page 1 Line 6:  - Script call: map_effects.back = false
+Map 51 20階到達1回め - Event 3 EV003 (14,79) - Page 1 Line 45:  - Script call: end_noise
+Map 52 町並み - Event 1 EV001 (13,39) - Page 1 Line 2:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 52 町並み - Event 1 EV001 (13,39) - Page 1 Line 14:  - Script call: end_noise
+Map 53 部屋１ - Event 3 EV003 (0,0) - Page 1 Line 2:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 53 部屋１ - Event 3 EV003 (0,0) - Page 1 Line 14:  - Script call: end_noise
+Map 53 部屋１ - Event 7  (10,6) - Page 1 Line 141:  - Move Route Script call: move2pos_wait(9,12)
+Map 53 部屋１ - Event 8 EV008 (12,8) - Page 1 Line 7:  - Script call: write_public_data
+Map 54 部屋２ - Event 2 EV002 (11,8) - Page 1 Line 7:  - Script call: write_public_data
+Map 54 部屋２ - Event 11 EV011 (0,0) - Page 1 Line 57:  - Script call: end_noise
+Map 54 部屋２ - Event 11 EV011 (0,0) - Page 1 Line 93:  - Script call: map_effects.set_hue(0, 0)
+Map 54 部屋２ - Event 11 EV011 (0,0) - Page 1 Line 94:  - Script call: map_effects.mirror = false
+Map 54 部屋２ - Event 11 EV011 (0,0) - Page 1 Line 105:  - Script call: $game_map.screen.start_fadein(0)
+Map 54 部屋２ - Event 14 EV014 (1,0) - Page 1 Line 7:  - Script call: $game_map.screen.start_fadein(0)
+Map 54 部屋２ - Event 15 EV015 (3,0) - Page 1 Line 19:  - Script call: $game_map.screen.start_fadein(0)
+Map 57 滝 - Event 4  (17,27) - Page 1 Line 183:  - Move Route Script call: move2pos_wait(17,34)
+Map 57 滝 - Event 4  (17,27) - Page 1 Line 208:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 57 滝 - Event 4  (17,27) - Page 1 Line 210:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 57 滝 - Event 5 EV005 (14,39) - Page 3 Line 3:  - Move Route Script call: move2pos_wait(17,34)
+Map 57 滝 - Event 6  (17,28) - Page 1 Line 183:  - Move Route Script call: move2pos_wait(17,34)
+Map 57 滝 - Event 6  (17,28) - Page 1 Line 207:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 57 滝 - Event 6  (17,28) - Page 1 Line 209:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 59 森までの廊下 - Event 1 EV001 (33,39) - Page 1 Line 2:  - Script call: map_effects.set_wave(0, 180, 360, 60)
+Map 59 森までの廊下 - Event 1 EV001 (33,39) - Page 1 Line 3:  - Script call: map_effects.set_opacity(255, 60)
+Map 59 森までの廊下 - Event 1 EV001 (33,39) - Page 1 Line 4:  - Script call: map_effects.back = false
+Map 59 森までの廊下 - Event 2 EV002 (34,39) - Page 1 Line 2:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 59 森までの廊下 - Event 2 EV002 (34,39) - Page 1 Line 14:  - Script call: end_noise
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 1 Line 4:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 1 Line 30:  - Script call: end_noise
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 1 Line 51:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 1 Line 63:  - Script call: end_noise
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 1 Line 112:  - Script call: end_noise
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 2 Line 4:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 2 Line 30:  - Script call: end_noise
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 2 Line 51:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 2 Line 63:  - Script call: end_noise
+Map 59 森までの廊下 - Event 3 EV003 (32,39) - Page 2 Line 112:  - Script call: end_noise
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 1 Line 4:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 1 Line 30:  - Script call: end_noise
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 1 Line 77:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 1 Line 89:  - Script call: end_noise
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 1 Line 138:  - Script call: end_noise
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 2 Line 4:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 2 Line 30:  - Script call: end_noise
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 2 Line 77:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 2 Line 89:  - Script call: end_noise
+Map 60 最初の森 - Event 1 EV001 (0,12) - Page 2 Line 138:  - Script call: end_noise
+Map 60 最初の森 - Event 3 EV003 (16,12) - Page 1 Line 2:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 60 最初の森 - Event 3 EV003 (16,12) - Page 1 Line 14:  - Script call: end_noise
+Map 61 カウンセリング２ - Event 44 EV044 (1,2) - Page 1 Line 20:  - Script call: $game_map.screen.start_fadein(0)
+Map 74 森２０階 - Event 1 EV001 (0,12) - Page 1 Line 2:  - Script call: start_fadein(60)
+Map 74 森２０階 - Event 3 EV003 (0,14) - Page 1 Line 212:  - Move Route Script call: move2pos_wait(14,7)
+Map 74 森２０階 - Event 3 EV003 (0,14) - Page 2 Line 201:  - Move Route Script call: move2pos_wait(14,7)
+Map 75 森２０階ＢＡＤ - Event 2 EV002 (1,12) - Page 1 Line 47:  - Script call: write_public_data
+Map 76 カウンセリング３ - Event 44 EV044 (1,2) - Page 1 Line 20:  - Script call: $game_map.screen.start_fadein(0)
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 1 Line 32:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 1 Line 33:  - Script call: map_effects.set_opacity(50, 60)
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 1 Line 34:  - Script call: map_effects.back = true
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 1 Line 60:  - Script call: end_noise
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 1 Line 126:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 1 Line 128:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 2 Line 32:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 2 Line 33:  - Script call: map_effects.set_opacity(50, 60)
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 2 Line 34:  - Script call: map_effects.back = true
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 2 Line 60:  - Script call: end_noise
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 2 Line 128:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 77 大学外 - Event 1 EV001 (14,30) - Page 2 Line 130:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 77 大学外 - Event 24 EV024 (12,31) - Page 1 Line 32:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 77 大学外 - Event 24 EV024 (12,31) - Page 1 Line 33:  - Script call: map_effects.set_opacity(50, 60)
+Map 77 大学外 - Event 24 EV024 (12,31) - Page 1 Line 34:  - Script call: map_effects.back = true
+Map 77 大学外 - Event 24 EV024 (12,31) - Page 1 Line 60:  - Script call: end_noise
+Map 77 大学外 - Event 24 EV024 (12,31) - Page 1 Line 84:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 77 大学外 - Event 24 EV024 (12,31) - Page 1 Line 96:  - Script call: end_noise
+Map 77 大学外 - Event 24 EV024 (12,31) - Page 1 Line 117:  - Script call: end_noise
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 1 Line 32:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 1 Line 33:  - Script call: map_effects.set_opacity(50, 60)
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 1 Line 34:  - Script call: map_effects.back = true
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 1 Line 61:  - Script call: end_noise
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 1 Line 221:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 1 Line 233:  - Script call: end_noise
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 1 Line 254:  - Script call: end_noise
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 2 Line 32:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 2 Line 33:  - Script call: map_effects.set_opacity(50, 60)
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 2 Line 34:  - Script call: map_effects.back = true
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 2 Line 61:  - Script call: end_noise
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 2 Line 216:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 2 Line 228:  - Script call: end_noise
+Map 77 大学外 - Event 25 EV025 (13,30) - Page 2 Line 249:  - Script call: end_noise
+Map 77 大学外 - Event 26 EV026 (10,33) - Page 1 Line 53:  - Script call: end_noise
+Map 77 大学外 - Event 26 EV026 (10,33) - Page 1 Line 96:  - Script call: $game_map.screen.start_fadein(0)
+Map 77 大学外 - Event 27 EV027 (11,33) - Page 1 Line 8:  - Script call: $game_map.screen.start_fadein(0)
+Map 78 森boss1回目 - Event 8 EV008 (20,34) - Page 1 Line 194:  - Move Route Script call: move2pos_wait(14,7)
+Map 79 森boss - Event 1 EV001 (0,12) - Page 1 Line 71:  - Script call: end_noise
+Map 79 森boss - Event 14 EV014 (0,19) - Page 1 Line 2:  - Script call: map_effects.mirror = true
+Map 79 森boss - Event 14 EV014 (0,19) - Page 1 Line 3:  - Script call: map_effects.set_hue(180, 60)
+Map 79 森boss - Event 14 EV014 (0,19) - Page 1 Line 6:  - Script call: map_effects.set_hue(180, 60)
+Map 79 森boss - Event 14 EV014 (0,19) - Page 1 Line 7:  - Script call: map_effects.set_hue(360, 60)
+Map 79 森boss - Event 14 EV014 (0,19) - Page 1 Line 10:  - Script call: map_effects.set_hue(180, 60)
+Map 79 森boss - Event 14 EV014 (0,19) - Page 1 Line 13:  - Script call: map_effects.set_hue(360, 60)
+Map 79 森boss - Event 14 EV014 (0,19) - Page 1 Line 14:  - Script call: map_effects.set_hue(180, 60)
+Map 79 森boss - Event 14 EV014 (0,19) - Page 1 Line 17:  - Script call: map_effects.set_hue(360, 60)
+Map 79 森boss - Event 14 EV014 (0,19) - Page 1 Line 18:  - Script call: map_effects.mirror = false
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 7:  - Script call: x = $game_variables[55]
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 8:  - Script call: y = $game_variables[56]
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 9:  - Script call: copy_id = $game_variables[15]  # イベントID
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 10:  - Script call: copy_map = 9                  # マップID
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 11:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 12:  - Script call: $game_variables[14] = id
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 14:  - Script call: x = $game_variables[55]
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 15:  - Script call: y = $game_variables[56]
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 16:  - Script call: copy_id = $game_variables[15]  # イベントID
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 17:  - Script call: copy_map = 9                  # マップID
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 18:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 19:  - Script call: $game_variables[14] = id
+Map 79 森boss - Event 15 EV015 (0,20) - Page 1 Line 20:  - Script call: overwrite_char($game_variables[14])
+Map 79 森boss - Event 16 EV016 (0,22) - Page 1 Line 2:  - Script call: map_effects.set_hue(360, 60)
+Map 79 森boss - Event 16 EV016 (0,22) - Page 1 Line 3:  - Script call: map_effects.mirror = false
+Map 79 森boss - Event 21 EV021 (0,23) - Page 1 Line 2:  - Script call: map_effects.set_hue(360, 60)
+Map 79 森boss - Event 21 EV021 (0,23) - Page 1 Line 3:  - Script call: map_effects.mirror = false
+Map 79 森boss - Event 22 EV022 (0,24) - Page 1 Line 2:  - Script call: map_effects.set_hue(360, 60)
+Map 79 森boss - Event 22 EV022 (0,24) - Page 1 Line 3:  - Script call: map_effects.mirror = false
+Map 79 森boss - Event 23 EV023 (1,22) - Page 1 Line 2:  - Script call: map_effects.set_hue(360, 60)
+Map 79 森boss - Event 23 EV023 (1,22) - Page 1 Line 3:  - Script call: map_effects.mirror = false
+Map 79 森boss - Event 24 EV024 (1,24) - Page 1 Line 2:  - Script call: map_effects.set_hue(360, 60)
+Map 79 森boss - Event 24 EV024 (1,24) - Page 1 Line 3:  - Script call: map_effects.mirror = false
+Map 80 森boss倒した - Event 1 EV001 (15,34) - Page 1 Line 106:  - Script call: start_fadeout(60)
+Map 81 森通路 - Event 1 EV001 (0,2) - Page 1 Line 1:  - Script call: start_fadein(60)
+Map 81 森通路 - Event 1 EV001 (0,2) - Page 1 Line 83:  - Script call: start_fadeout(60)
+Map 81 森通路 - Event 1 EV001 (0,2) - Page 2 Line 1:  - Script call: start_fadein(60)
+Map 81 森通路 - Event 1 EV001 (0,2) - Page 2 Line 90:  - Script call: start_fadeout(60)
+Map 82 大学1F - Event 8 EV008 (13,44) - Page 1 Line 7:  - Script call: write_public_data
+Map 82 大学1F - Event 9 EV009 (13,43) - Page 1 Line 6:  - Script call: write_public_data
+Map 83 大学1F奥 - Event 8 EV008 (0,12) - Page 1 Line 4:  - Script call: x = $game_variables[18]
+Map 83 大学1F奥 - Event 8 EV008 (0,12) - Page 1 Line 5:  - Script call: y = $game_variables[19]
+Map 83 大学1F奥 - Event 8 EV008 (0,12) - Page 1 Line 6:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 83 大学1F奥 - Event 8 EV008 (0,12) - Page 1 Line 7:  - Script call: copy_map = 9                  # マップID
+Map 83 大学1F奥 - Event 8 EV008 (0,12) - Page 1 Line 8:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 83 大学1F奥 - Event 8 EV008 (0,12) - Page 1 Line 9:  - Script call: $game_variables[14] = id
+Map 83 大学1F奥 - Event 8 EV008 (0,12) - Page 1 Line 10:  - Script call: overwrite_char($game_variables[14])
+Map 87 大学2F右 - Event 9 EV009 (0,20) - Page 1 Line 33:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 87 大学2F右 - Event 9 EV009 (0,20) - Page 1 Line 59:  - Script call: end_noise
+Map 87 大学2F右 - Event 21 EV021 (0,21) - Page 1 Line 2:  - Script call: $game_map.screen.start_fadein(0)
+Map 87 大学2F右 - Event 21 EV021 (0,21) - Page 2 Line 2:  - Script call: $game_map.screen.start_fadein(0)
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 4:  - Script call: x = $game_variables[18]
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 5:  - Script call: y = $game_variables[19]
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 6:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 7:  - Script call: copy_map = 9                  # マップID
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 8:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 9:  - Script call: $game_variables[14] = id
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 10:  - Script call: overwrite_char($game_variables[14])
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 16:  - Script call: x = $game_variables[18]
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 17:  - Script call: y = $game_variables[19]
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 18:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 19:  - Script call: copy_map = 9                  # マップID
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 20:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 21:  - Script call: $game_variables[14] = id
+Map 89 大学室内 - Event 4 EV004 (0,1) - Page 1 Line 22:  - Script call: overwrite_char($game_variables[14])
+Map 90 大学1F１回目 - Event 8 EV008 (13,44) - Page 1 Line 7:  - Script call: write_public_data
+Map 90 大学1F１回目 - Event 9 EV009 (13,43) - Page 1 Line 7:  - Script call: write_public_data
+Map 90 大学1F１回目 - Event 18 EV018 (19,40) - Page 1 Line 1:  - Script call: map_effects.set_wave(0, 0, 0, 0)
+Map 90 大学1F１回目 - Event 18 EV018 (19,40) - Page 1 Line 2:  - Script call: map_effects.set_opacity(0, 0)
+Map 90 大学1F１回目 - Event 18 EV018 (19,40) - Page 1 Line 3:  - Script call: map_effects.back = true
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 4:  - Script call: x = $game_variables[18]
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 5:  - Script call: y = $game_variables[19]
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 6:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 7:  - Script call: copy_map = 9                  # マップID
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 8:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 9:  - Script call: $game_variables[14] = id
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 10:  - Script call: overwrite_char($game_variables[14])
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 16:  - Script call: x = $game_variables[18]
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 17:  - Script call: y = $game_variables[19]
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 18:  - Script call: copy_id = $game_variables[9]  # イベントID
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 19:  - Script call: copy_map = 9                  # マップID
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 20:  - Script call: id = add_extra_event(x, y, copy_id, copy_map)
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 21:  - Script call: $game_variables[14] = id
+Map 92 大学室内2階 - Event 4 EV004 (0,1) - Page 1 Line 22:  - Script call: overwrite_char($game_variables[14])
+Map 93 図書館 - Event 2 EV002 (19,28) - Page 1 Line 31:  - Script call: start_fadein(60)
+Map 93 図書館 - Event 6 EV006 (16,0) - Page 1 Line 1:  - Script call: end_noise
+Map 94 大学室内右下回想 - Event 3 EV003 (1,29) - Page 1 Line 1:  - Script call: start_noise
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 32:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 33:  - Script call: map_effects.set_opacity(50, 60)
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 34:  - Script call: map_effects.back = true
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 60:  - Script call: end_noise
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 180:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 182:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 239:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 251:  - Script call: end_noise
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 272:  - Script call: end_noise
+Map 95 大学室内右下 - Event 1 EV001 (17,29) - Page 1 Line 301:  - Script call: $game_map.screen.start_fadein(0)
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 1 Line 4:  - Script call: map_effects.set_wave(0, 0, 0, 0)
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 1 Line 5:  - Script call: map_effects.set_opacity(0, 0)
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 1 Line 6:  - Script call: map_effects.back = true
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 1 Line 61:  - Script call: end_noise
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 1 Line 233:  - Script call: map_effects.set_wave(2, 120, 160, 20)
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 1 Line 245:  - Script call: end_noise
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 1 Line 266:  - Script call: end_noise
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 2 Line 4:  - Script call: map_effects.set_wave(0, 0, 0, 0)
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 2 Line 5:  - Script call: map_effects.set_opacity(0, 0)
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 2 Line 6:  - Script call: map_effects.back = true
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 2 Line 62:  - Script call: end_noise
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 2 Line 557:  - Script call: end_noise
+Map 95 大学室内右下 - Event 3 EV003 (19,29) - Page 2 Line 578:  - Script call: end_noise
+Map 96 くれは回想 - Event 1 EV001 (0,0) - Page 1 Line 11:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 96 くれは回想 - Event 1 EV001 (0,0) - Page 1 Line 12:  - Script call: map_effects.set_opacity(50, 60)
+Map 96 くれは回想 - Event 1 EV001 (0,0) - Page 1 Line 13:  - Script call: map_effects.back = true
+Map 96 くれは回想 - Event 1 EV001 (0,0) - Page 1 Line 39:  - Script call: end_noise
+Map 96 くれは回想 - Event 1 EV001 (0,0) - Page 1 Line 70:  - Script call: MIRROR_LEFT = true
+Map 97 大学室内右下1 - Event 1 EV001 (19,29) - Page 1 Line 33:  - Script call: map_effects.set_wave(8, 0, 0, 0)
+Map 97 大学室内右下1 - Event 1 EV001 (19,29) - Page 1 Line 34:  - Script call: map_effects.set_opacity(0, 0)
+Map 97 大学室内右下1 - Event 1 EV001 (19,29) - Page 1 Line 35:  - Script call: map_effects.back = true
+Map 97 大学室内右下1 - Event 1 EV001 (19,29) - Page 1 Line 61:  - Script call: end_noise
+Map 97 大学室内右下1 - Event 1 EV001 (19,29) - Page 1 Line 199:  - Script call: end_noise
+Map 97 大学室内右下1 - Event 1 EV001 (19,29) - Page 1 Line 220:  - Script call: end_noise
+Map 97 大学室内右下1 - Event 4 EV004 (1,29) - Page 1 Line 33:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 97 大学室内右下1 - Event 4 EV004 (1,29) - Page 1 Line 34:  - Script call: map_effects.set_opacity(50, 60)
+Map 97 大学室内右下1 - Event 4 EV004 (1,29) - Page 1 Line 35:  - Script call: map_effects.back = true
+Map 97 大学室内右下1 - Event 4 EV004 (1,29) - Page 1 Line 61:  - Script call: end_noise
+Map 97 大学室内右下1 - Event 4 EV004 (1,29) - Page 1 Line 179:  - Script call: map_effects.set_gaussian_blur(10, 60)
+Map 97 大学室内右下1 - Event 4 EV004 (1,29) - Page 1 Line 181:  - Script call: map_effects.set_gaussian_blur(0, 60)
+Map 97 大学室内右下1 - Event 4 EV004 (1,29) - Page 1 Line 231:  - Script call: end_noise
+Map 97 大学室内右下1 - Event 4 EV004 (1,29) - Page 1 Line 252:  - Script call: end_noise
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 1 Line 33:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 1 Line 56:  - Script call: end_noise
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 2 Line 4:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 2 Line 34:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 2 Line 35:  - Script call: map_effects.set_opacity(50, 60)
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 2 Line 36:  - Script call: map_effects.back = true
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 2 Line 59:  - Script call: end_noise
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 3 Line 33:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 3 Line 56:  - Script call: end_noise
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 4 Line 4:  - Script call: map_effects.set_wave(4, 180, 360, 60)
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 4 Line 34:  - Script call: map_effects.set_wave(8, 180, 360, 60)
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 4 Line 35:  - Script call: map_effects.set_opacity(50, 60)
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 4 Line 36:  - Script call: map_effects.back = true
+Map 98 ラストボス手前 - Event 3 EV003 (5,31) - Page 4 Line 59:  - Script call: end_noise
+Map 100 水音 - Event 1 EV001 (0,0) - Page 1 Line 8:  - Script call: Font.default_size = 35         #フォントサイズ
+Map 100 水音 - Event 1 EV001 (0,0) - Page 1 Line 34:  - Script call: Font.default_size = 24
+Map 101 ラストボス階段 - Event 1 EV001 (10,32) - Page 1 Line 1:  - Script call: map_effects.set_wave(0, 0, 0, 0)
+Map 101 ラストボス階段 - Event 1 EV001 (10,32) - Page 1 Line 60:  - Script call: end_noise
+Map 101 ラストボス階段 - Event 1 EV001 (10,32) - Page 1 Line 78:  - Script call: map_effects.set_wave(0, 0, 0, 0)
+Map 101 ラストボス階段 - Event 3 EV003 (11,31) - Page 1 Line 58:  - Script call: end_noise
+Map 101 ラストボス階段 - Event 3 EV003 (11,31) - Page 2 Line 58:  - Script call: end_noise
+Map 102 屋上２ - Event 2 EV002 (22,17) - Page 1 Line 4:  - Script call: $game_map.screen.start_fadein(0)
+Map 102 屋上２ - Event 2 EV002 (22,17) - Page 2 Line 4:  - Script call: $game_map.screen.start_fadein(0)
+Map 103 世界の生還 - Event 1 EV001 (0,0) - Page 1 Line 20:  - Script call: Font.default_size = 24
+Map 104 それから‥‥ - Event 1 EV001 (0,0) - Page 1 Line 118:  - Script call: write_public_data
+Map 104 それから‥‥ - Event 1 EV001 (0,0) - Page 3 Line 38:  - Script call: map_effects.set_wave(8, 0, 0, 0)
+Map 104 それから‥‥ - Event 1 EV001 (0,0) - Page 3 Line 39:  - Script call: map_effects.set_opacity(0, 0)
+Map 104 それから‥‥ - Event 1 EV001 (0,0) - Page 3 Line 40:  - Script call: map_effects.back = true
+Map 104 それから‥‥ - Event 1 EV001 (0,0) - Page 3 Line 66:  - Script call: end_noise
+Map 104 それから‥‥ - Event 1 EV001 (0,0) - Page 3 Line 337:  - Script call: write_public_data
+Map 110 ED2 - Event 1 EV001 (0,0) - Page 1 Line 65:  - Script call: end_noise
+Map 110 ED2 - Event 1 EV001 (0,0) - Page 1 Line 350:  - Script call: write_public_data
+Map 110 ED2 - Event 1 EV001 (0,0) - Page 1 Line 357:  - Script call: write_public_data
+Map 110 ED2 - Event 1 EV001 (0,0) - Page 1 Line 364:  - Script call: write_public_data
+Map 110 ED2 - Event 1 EV001 (0,0) - Page 1 Line 373:  - Script call: write_public_data
+Map 110 ED2 - Event 1 EV001 (0,0) - Page 1 Line 380:  - Script call: write_public_data
+Map 112 クリア後 - Event 1 EV001 (1,1) - Page 1 Line 12:  - Script call: write_public_data
+Map 112 クリア後 - Event 30 EV030 (0,0) - Page 1 Line 52:  - Script call: end_noise
+Map 112 クリア後 - Event 30 EV030 (0,0) - Page 1 Line 89:  - Script call: $game_map.screen.start_fadein(0)
+Map 112 クリア後 - Event 32 EV032 (16,7) - Page 1 Line 10:  - Script call: write_public_data
+Map 113 PC8(menu) - Event 4 EV004 (2,4) - Page 2 Line 15:  - Script call: write_public_data
+Map 113 PC8(menu) - Event 5 EV005 (4,4) - Page 2 Line 15:  - Script call: write_public_data
+Map 113 PC8(menu) - Event 6 EV006 (6,4) - Page 2 Line 15:  - Script call: write_public_data
+Map 113 PC8(menu) - Event 9 EV009 (8,4) - Page 2 Line 15:  - Script call: write_public_data
+Map 113 PC8(menu) - Event 10 EV010 (10,4) - Page 2 Line 15:  - Script call: write_public_data
+Map 113 PC8(menu) - Event 11 EV011 (12,4) - Page 2 Line 15:  - Script call: write_public_data
+Map 114 セーブできる君 - Event 2 EV002 (7,7) - Page 1 Line 7:  - Script call: write_public_data
+Map 116 CG - Event 1 EV001 (1,1) - Page 1 Line 12:  - Script call: write_public_data
+Map 116 CG - Event 30 EV030 (0,0) - Page 1 Line 52:  - Script call: end_noise
+Map 116 CG - Event 30 EV030 (0,0) - Page 1 Line 89:  - Script call: $game_map.screen.start_fadein(0)
+Map 118 トゥルーエンド - Event 4 EV004 (0,196) - Page 1 Line 1:  - Script call: $game_system.timer_hide = true

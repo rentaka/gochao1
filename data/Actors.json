@@ -1,0 +1,16 @@
+[
+null,
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"$sh","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":1,"value":1},{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"明有","nickname":"uoo","note":"","profile":"iii"},
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"$hr22","classId":2,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"くれは","nickname":"aaa","note":"","profile":"aaa"},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"$sitate","classId":3,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"したて","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"$tisato","classId":4,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"ちさと","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"meda","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":10,"maxLevel":99,"name":"さとし","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"$nikuo","classId":9,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"肉","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":6,"characterName":"aaa","classId":6,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"バグ子","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":4,"characterName":"NPC-1","classId":7,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"病死","nickname":"","note":"","profile":""},
+{"id":9,"battlerName":"","characterIndex":0,"characterName":"$menoko [8 8 8 8]","classId":8,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"メノコ","nickname":"","note":"","profile":""},
+{"id":10,"battlerName":"","characterIndex":7,"characterName":"NPC-1","classId":10,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"佐々木","nickname":"","note":"","profile":""},
+{"id":11,"battlerName":"","characterIndex":0,"characterName":"$sasaki2","classId":11,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":11,"value":1}],"initialLevel":1,"maxLevel":99,"name":"佐々木２","nickname":"","note":"","profile":""},
+{"id":12,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":13,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"All","nickname":"","note":"","profile":""}
+]
